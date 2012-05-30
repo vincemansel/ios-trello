@@ -42,16 +42,13 @@ Double-click the following source files, and add the flag:
 -fno-objc-arc
 ```
 
-All AFNetworking .m Sources  		(10 files)
-All ytoolkit .m library Sources		(11 files)
-Reachability.m
-
+* All AFNetworking .m Sources  		(10 files)
+* All ytoolkit .m library Sources		(11 files)
+* Reachability.m
 
 4. Under Targets > ios-trello > Build Phases > Link Binary with Libraries:
 
-
 5. Go to [Trello Docs](https://trello.com/docs/) and generate an Application Key
-
 
 6. Substitute your keys in the file TrelloClientCredentials.m
 
