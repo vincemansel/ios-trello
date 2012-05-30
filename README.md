@@ -47,7 +47,7 @@ All ytoolkit .m library Sources		(11 files)
 Reachability.m
 
 
-4. 3. Under Targets > ios-trello > Build Phases > Link Binary with Libraries:
+4. Under Targets > ios-trello > Build Phases > Link Binary with Libraries:
 
 
 5. Go to [Trello Docs](https://trello.com/docs/) and generate an Application Key
