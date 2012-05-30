@@ -1,4 +1,4 @@
 ios-trello
 ==========
 
-A iOS Wrapper for Trello
+An iOS Wrapper for Trello

@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8F969F015769E08007D2E6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F969EF15769E08007D2E6A /* UIKit.framework */; };
+		A8F969F215769E08007D2E6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F969F115769E08007D2E6A /* Foundation.framework */; };
+		A8F969F415769E08007D2E6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F969F315769E08007D2E6A /* CoreGraphics.framework */; };
+		A8F969FA15769E08007D2E6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8F969F815769E08007D2E6A /* InfoPlist.strings */; };
+		A8F969FC15769E08007D2E6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F969FB15769E08007D2E6A /* main.m */; };
+		A8F96A0015769E08007D2E6A /* VMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F969FF15769E08007D2E6A /* VMAppDelegate.m */; };
+		A8F96A0315769E08007D2E6A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F96A0115769E08007D2E6A /* MainStoryboard_iPhone.storyboard */; };
+		A8F96A0615769E08007D2E6A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F96A0415769E08007D2E6A /* MainStoryboard_iPad.storyboard */; };
+		A8F96A0915769E08007D2E6A /* VMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A0815769E08007D2E6A /* VMFirstViewController.m */; };
+		A8F96A0B15769E08007D2E6A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F96A0A15769E08007D2E6A /* first.png */; };
+		A8F96A0D15769E08007D2E6A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F96A0C15769E08007D2E6A /* first@2x.png */; };
+		A8F96A1015769E08007D2E6A /* VMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A0F15769E08007D2E6A /* VMSecondViewController.m */; };
+		A8F96A1215769E08007D2E6A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F96A1115769E08007D2E6A /* second.png */; };
+		A8F96A1415769E08007D2E6A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F96A1315769E08007D2E6A /* second@2x.png */; };
+		A8F96A1C15769E08007D2E6A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F96A1B15769E08007D2E6A /* SenTestingKit.framework */; };
+		A8F96A1D15769E08007D2E6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F969EF15769E08007D2E6A /* UIKit.framework */; };
+		A8F96A1E15769E08007D2E6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F969F115769E08007D2E6A /* Foundation.framework */; };
+		A8F96A2615769E08007D2E6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8F96A2415769E08007D2E6A /* InfoPlist.strings */; };
+		A8F96A2915769E08007D2E6A /* ios_trelloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A2815769E08007D2E6A /* ios_trelloTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8F96A1F15769E08007D2E6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F969E215769E08007D2E6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F969EA15769E08007D2E6A;
+			remoteInfo = "ios-trello";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8F969EB15769E08007D2E6A /* ios-trello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-trello.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F969EF15769E08007D2E6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8F969F115769E08007D2E6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8F969F315769E08007D2E6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8F969F715769E08007D2E6A /* ios-trello-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios-trello-Info.plist"; sourceTree = "<group>"; };
+		A8F969F915769E08007D2E6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8F969FB15769E08007D2E6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8F969FD15769E08007D2E6A /* ios-trello-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-trello-Prefix.pch"; sourceTree = "<group>"; };
+		A8F969FE15769E08007D2E6A /* VMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMAppDelegate.h; sourceTree = "<group>"; };
+		A8F969FF15769E08007D2E6A /* VMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMAppDelegate.m; sourceTree = "<group>"; };
+		A8F96A0215769E08007D2E6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A8F96A0515769E08007D2E6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A8F96A0715769E08007D2E6A /* VMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMFirstViewController.h; sourceTree = "<group>"; };
+		A8F96A0815769E08007D2E6A /* VMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMFirstViewController.m; sourceTree = "<group>"; };
+		A8F96A0A15769E08007D2E6A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		A8F96A0C15769E08007D2E6A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		A8F96A0E15769E08007D2E6A /* VMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMSecondViewController.h; sourceTree = "<group>"; };
+		A8F96A0F15769E08007D2E6A /* VMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMSecondViewController.m; sourceTree = "<group>"; };
+		A8F96A1115769E08007D2E6A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		A8F96A1315769E08007D2E6A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		A8F96A1A15769E08007D2E6A /* ios-trelloTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-trelloTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F96A1B15769E08007D2E6A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A8F96A2315769E08007D2E6A /* ios-trelloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios-trelloTests-Info.plist"; sourceTree = "<group>"; };
+		A8F96A2515769E08007D2E6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8F96A2715769E08007D2E6A /* ios_trelloTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_trelloTests.h; sourceTree = "<group>"; };
+		A8F96A2815769E08007D2E6A /* ios_trelloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_trelloTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8F969E815769E08007D2E6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F969F015769E08007D2E6A /* UIKit.framework in Frameworks */,
+				A8F969F215769E08007D2E6A /* Foundation.framework in Frameworks */,
+				A8F969F415769E08007D2E6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F96A1615769E08007D2E6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F96A1C15769E08007D2E6A /* SenTestingKit.framework in Frameworks */,
+				A8F96A1D15769E08007D2E6A /* UIKit.framework in Frameworks */,
+				A8F96A1E15769E08007D2E6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8F969E015769E08007D2E6A = {
+			isa = PBXGroup;
+			children = (
+				A8F969F515769E08007D2E6A /* ios-trello */,
+				A8F96A2115769E08007D2E6A /* ios-trelloTests */,
+				A8F969EE15769E08007D2E6A /* Frameworks */,
+				A8F969EC15769E08007D2E6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8F969EC15769E08007D2E6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8F969EB15769E08007D2E6A /* ios-trello.app */,
+				A8F96A1A15769E08007D2E6A /* ios-trelloTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8F969EE15769E08007D2E6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8F969EF15769E08007D2E6A /* UIKit.framework */,
+				A8F969F115769E08007D2E6A /* Foundation.framework */,
+				A8F969F315769E08007D2E6A /* CoreGraphics.framework */,
+				A8F96A1B15769E08007D2E6A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8F969F515769E08007D2E6A /* ios-trello */ = {
+			isa = PBXGroup;
+			children = (
+				A8F969FE15769E08007D2E6A /* VMAppDelegate.h */,
+				A8F969FF15769E08007D2E6A /* VMAppDelegate.m */,
+				A8F96A0115769E08007D2E6A /* MainStoryboard_iPhone.storyboard */,
+				A8F96A0415769E08007D2E6A /* MainStoryboard_iPad.storyboard */,
+				A8F96A0715769E08007D2E6A /* VMFirstViewController.h */,
+				A8F96A0815769E08007D2E6A /* VMFirstViewController.m */,
+				A8F96A0A15769E08007D2E6A /* first.png */,
+				A8F96A0C15769E08007D2E6A /* first@2x.png */,
+				A8F96A0E15769E08007D2E6A /* VMSecondViewController.h */,
+				A8F96A0F15769E08007D2E6A /* VMSecondViewController.m */,
+				A8F96A1115769E08007D2E6A /* second.png */,
+				A8F96A1315769E08007D2E6A /* second@2x.png */,
+				A8F969F615769E08007D2E6A /* Supporting Files */,
+			);
+			path = "ios-trello";
+			sourceTree = "<group>";
+		};
+		A8F969F615769E08007D2E6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8F969F715769E08007D2E6A /* ios-trello-Info.plist */,
+				A8F969F815769E08007D2E6A /* InfoPlist.strings */,
+				A8F969FB15769E08007D2E6A /* main.m */,
+				A8F969FD15769E08007D2E6A /* ios-trello-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8F96A2115769E08007D2E6A /* ios-trelloTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F96A2715769E08007D2E6A /* ios_trelloTests.h */,
+				A8F96A2815769E08007D2E6A /* ios_trelloTests.m */,
+				A8F96A2215769E08007D2E6A /* Supporting Files */,
+			);
+			path = "ios-trelloTests";
+			sourceTree = "<group>";
+		};
+		A8F96A2215769E08007D2E6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8F96A2315769E08007D2E6A /* ios-trelloTests-Info.plist */,
+				A8F96A2415769E08007D2E6A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8F969EA15769E08007D2E6A /* ios-trello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F96A2C15769E08007D2E6A /* Build configuration list for PBXNativeTarget "ios-trello" */;
+			buildPhases = (
+				A8F969E715769E08007D2E6A /* Sources */,
+				A8F969E815769E08007D2E6A /* Frameworks */,
+				A8F969E915769E08007D2E6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-trello";
+			productName = "ios-trello";
+			productReference = A8F969EB15769E08007D2E6A /* ios-trello.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8F96A1915769E08007D2E6A /* ios-trelloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F96A2F15769E08007D2E6A /* Build configuration list for PBXNativeTarget "ios-trelloTests" */;
+			buildPhases = (
+				A8F96A1515769E08007D2E6A /* Sources */,
+				A8F96A1615769E08007D2E6A /* Frameworks */,
+				A8F96A1715769E08007D2E6A /* Resources */,
+				A8F96A1815769E08007D2E6A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F96A2015769E08007D2E6A /* PBXTargetDependency */,
+			);
+			name = "ios-trelloTests";
+			productName = "ios-trelloTests";
+			productReference = A8F96A1A15769E08007D2E6A /* ios-trelloTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8F969E215769E08007D2E6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VM;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "waveOcean Software";
+			};
+			buildConfigurationList = A8F969E515769E08007D2E6A /* Build configuration list for PBXProject "ios-trello" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8F969E015769E08007D2E6A;
+			productRefGroup = A8F969EC15769E08007D2E6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8F969EA15769E08007D2E6A /* ios-trello */,
+				A8F96A1915769E08007D2E6A /* ios-trelloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8F969E915769E08007D2E6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F969FA15769E08007D2E6A /* InfoPlist.strings in Resources */,
+				A8F96A0315769E08007D2E6A /* MainStoryboard_iPhone.storyboard in Resources */,
+				A8F96A0615769E08007D2E6A /* MainStoryboard_iPad.storyboard in Resources */,
+				A8F96A0B15769E08007D2E6A /* first.png in Resources */,
+				A8F96A0D15769E08007D2E6A /* first@2x.png in Resources */,
+				A8F96A1215769E08007D2E6A /* second.png in Resources */,
+				A8F96A1415769E08007D2E6A /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F96A1715769E08007D2E6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F96A2615769E08007D2E6A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8F96A1815769E08007D2E6A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8F969E715769E08007D2E6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F969FC15769E08007D2E6A /* main.m in Sources */,
+				A8F96A0015769E08007D2E6A /* VMAppDelegate.m in Sources */,
+				A8F96A0915769E08007D2E6A /* VMFirstViewController.m in Sources */,
+				A8F96A1015769E08007D2E6A /* VMSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F96A1515769E08007D2E6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F96A2915769E08007D2E6A /* ios_trelloTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8F96A2015769E08007D2E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F969EA15769E08007D2E6A /* ios-trello */;
+			targetProxy = A8F96A1F15769E08007D2E6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8F969F815769E08007D2E6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F969F915769E08007D2E6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8F96A0115769E08007D2E6A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F96A0215769E08007D2E6A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A8F96A0415769E08007D2E6A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F96A0515769E08007D2E6A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A8F96A2415769E08007D2E6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F96A2515769E08007D2E6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8F96A2A15769E08007D2E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8F96A2B15769E08007D2E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8F96A2D15769E08007D2E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios-trello/ios-trello-Prefix.pch";
+				INFOPLIST_FILE = "ios-trello/ios-trello-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8F96A2E15769E08007D2E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios-trello/ios-trello-Prefix.pch";
+				INFOPLIST_FILE = "ios-trello/ios-trello-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A8F96A3015769E08007D2E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ios-trello.app/ios-trello";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios-trello/ios-trello-Prefix.pch";
+				INFOPLIST_FILE = "ios-trelloTests/ios-trelloTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A8F96A3115769E08007D2E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ios-trello.app/ios-trello";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios-trello/ios-trello-Prefix.pch";
+				INFOPLIST_FILE = "ios-trelloTests/ios-trelloTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8F969E515769E08007D2E6A /* Build configuration list for PBXProject "ios-trello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F96A2A15769E08007D2E6A /* Debug */,
+				A8F96A2B15769E08007D2E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F96A2C15769E08007D2E6A /* Build configuration list for PBXNativeTarget "ios-trello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F96A2D15769E08007D2E6A /* Debug */,
+				A8F96A2E15769E08007D2E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8F96A2F15769E08007D2E6A /* Build configuration list for PBXNativeTarget "ios-trelloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F96A3015769E08007D2E6A /* Debug */,
+				A8F96A3115769E08007D2E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8F969E215769E08007D2E6A /* Project object */;
+}
