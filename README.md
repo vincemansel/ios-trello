@@ -5,18 +5,18 @@ An iOS (Objective-C) Wrapper for Trello
 
 ## Additional Sources Required:
 
-Reachability (Apple)
-AFNetworking (https://github.com/AFNetworking/AFNetworking.git)
+* Reachability (Apple)
+* AFNetworking (https://github.com/AFNetworking/AFNetworking.git)
 
 ## Dependencies:
 
-ytoolkit (OAuthv1) (https://github.com/sprhawk/ytoolkit.git)
+* ytoolkit (OAuthv1) (https://github.com/sprhawk/ytoolkit.git)
 (delete all test sources)
 
 ## Additional XCode Frameworks:
 
-SystemConfiguration
-MobileCoreServices
+* SystemConfiguration
+* MobileCoreServices
 
 ## Demo Configuration
 
