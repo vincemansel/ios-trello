@@ -1,4 +1,4 @@
-# ios-trello
+ios-trello
 ==========
 
 An iOS (Objective-C) Wrapper for Trello
