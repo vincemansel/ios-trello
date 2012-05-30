@@ -3,22 +3,22 @@
 
 An iOS (Objective-C) Wrapper for Trello
 
-Additional Sources Required:
+## Additional Sources Required:
 
 Reachability (Apple)
 AFNetworking (https://github.com/AFNetworking/AFNetworking.git)
 
-Dependencies:
+## Dependencies:
 
 ytoolkit (OAuthv1) (https://github.com/sprhawk/ytoolkit.git)
 (delete all test sources)
 
-Additional XCode Frameworks:
+## Additional XCode Frameworks:
 
 SystemConfiguration
 MobileCoreServices
 
-Demo Configuration
+## Demo Configuration
 
 1. Under Project > ios-trello > Linking > Other Linker Flags,
 Double-Click then click + to set flags
