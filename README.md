@@ -6,14 +6,14 @@ An iOS (Objective-C) Wrapper for Trello
 ## Additional Sources Required:
 
 * Reachability (Apple)
-* AFNetworking (https://github.com/AFNetworking/AFNetworking.git)
+* AFNetworking (https://github.com/AFNetworking/AFNetworking)
 
 ## Dependencies:
 
-* ytoolkit (OAuthv1) (https://github.com/sprhawk/ytoolkit.git)
+* ytoolkit (OAuthv1) (https://github.com/sprhawk/ytoolkit)
 (delete all test sources)
 
-## Additional XCode Frameworks:
+## Additional Frameworks and Libraries:
 Under Targets > ios-trello > Build Phases > Link Binary with Libraries:
 * SystemConfiguration
 * MobileCoreServices
@@ -46,9 +46,11 @@ Double-click the following source files, and add the flag:
 * All ytoolkit .m library Sources		(11 files)
 * Reachability.m
 
-4. Go to [Trello Docs](https://trello.com/docs/) and generate an Application Key
+## Client Source Configuration
 
-5. Substitute your keys in the file TrelloClientCredentials.m
+1. Go to [Trello Docs](https://trello.com/docs/) and generate an Application Key
+
+2. Substitute your keys in the file TrelloClientCredentials.m
 
 Here's our [Trello Board](https://trello.com/board/ios-trello/4fc68e03d3e0f0166532f6e9) which tracks development and features of [ios-trello](https://trello.com/board/ios-trello/4fc68e03d3e0f0166532f6e9).
 
