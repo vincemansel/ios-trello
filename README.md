@@ -7,7 +7,10 @@ Trello is a free, collaborative task management web tool that can be used for an
 Check it out [here](http://www.trello.com). This project contains sources to enable you to build Trello into your native iOS projects.
 It is basically an API wrapper that makes it easy for your app to login and send GET, PUT, POST and DELETE HTTP signals to your available and authorized Trello boards.
 
-It is based on the Trello API, AFNetworking (for transport) and ytoolkit/NSMutableURLRequest (for OAuth).
+Load up the included iPad project in your simulator, and take ios4trello for a spin.
+
+The demo is based on the Trello API, AFNetworking (for transport) and ytoolkit/NSMutableURLRequest (for basic OAuth). You can use any
+OAuth library you want, but ios-trello is closely tied to AFNetworking through a few Macros.
 
 Here is the pattern to get a list of boards (with a name that starts with a variant of "MyProject") from Trello. It is up to you how you parse, handle and display the JSON
 that is returned. This examples stores the names into an NSArray model called boardList, and the ids into an NSArray called boardIDs.
@@ -91,6 +94,8 @@ Here is how to get started.
  * (If you are not linking against the static library, you will also need to fix some fix some imports: i.e. change <ytoolkit/ydefines.h> to "ydefines.h")
 
 ## Demo Configuration
+
+The included Xcode Project is an iPad app that exercises the Trello API.
 
 1. Under Project > ios-trello > Linking > Other Linker Flags,
 Double-Click then click + to set flags
