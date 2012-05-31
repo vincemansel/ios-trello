@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A8F969EA15769E08007D2E6A"
-               BuildableName = "ios-trello.app"
+               BuildableName = "ios4trello.app"
                BlueprintName = "ios4trello"
                ReferencedContainer = "container:ios-trello.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A8F969EA15769E08007D2E6A"
-            BuildableName = "ios-trello.app"
+            BuildableName = "ios4trello.app"
             BlueprintName = "ios4trello"
             ReferencedContainer = "container:ios-trello.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A8F969EA15769E08007D2E6A"
-            BuildableName = "ios-trello.app"
+            BuildableName = "ios4trello.app"
             BlueprintName = "ios4trello"
             ReferencedContainer = "container:ios-trello.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A8F969EA15769E08007D2E6A"
-            BuildableName = "ios-trello.app"
+            BuildableName = "ios4trello.app"
             BlueprintName = "ios4trello"
             ReferencedContainer = "container:ios-trello.xcodeproj">
          </BuildableReference>
