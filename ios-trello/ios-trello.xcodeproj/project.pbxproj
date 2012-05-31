@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8B351B115770ABD004EB874 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A8B3514115770ABD004EB874 /* .gitignore */; };
+		A8B351B215770ABD004EB874 /* BENCHMARK in Resources */ = {isa = PBXBuildFile; fileRef = A8B3514215770ABD004EB874 /* BENCHMARK */; };
+		A8B351B315770ABD004EB874 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = A8B3514315770ABD004EB874 /* COPYING */; };
+		A8B351B415770ABD004EB874 /* COPYING.LESSER in Resources */ = {isa = PBXBuildFile; fileRef = A8B3514415770ABD004EB874 /* COPYING.LESSER */; };
+		A8B351B615770ABD004EB874 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = A8B3514D15770ABD004EB874 /* README.markdown */; };
+		A8B351C815770ABD004EB874 /* yoauthv1.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518115770ABD004EB874 /* yoauthv1.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B351C915770ABD004EB874 /* yoauthv1_internal.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518315770ABD004EB874 /* yoauthv1_internal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B351CA15770ABD004EB874 /* NSError+YOAuthv2.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518615770ABD004EB874 /* NSError+YOAuthv2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B351CB15770ABD004EB874 /* yoauthv2.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518815770ABD004EB874 /* yoauthv2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B351CC15770ABD004EB874 /* yoauth_utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518C15770ABD004EB874 /* yoauth_utilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B351D415770ABD004EB874 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8B351A015770ABD004EB874 /* InfoPlist.strings */; };
+		A8B351D515770ABD004EB874 /* ytoolkit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8B351A215770ABD004EB874 /* ytoolkit-Info.plist */; };
+		A8B351D615770ABD004EB874 /* ErrorLocalizedString.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8B351A815770ABD004EB874 /* ErrorLocalizedString.strings */; };
+		A8B351D715770ABD004EB874 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8B351AA15770ABD004EB874 /* InfoPlist.strings */; };
+		A8B351D815770ABD004EB874 /* ytoolkitbundle-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8B351AC15770ABD004EB874 /* ytoolkitbundle-Info.plist */; };
+		A8B35229157721B4004EB874 /* NSMutableURLRequest+YOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B35226157721B4004EB874 /* NSMutableURLRequest+YOAuth.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B3523315772205004EB874 /* NSDictionary+YHTTPURLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3522C15772205004EB874 /* NSDictionary+YHTTPURLDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B3523415772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3522E15772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B3523515772205004EB874 /* NSString+YHTTPURLString.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3523015772205004EB874 /* NSString+YHTTPURLString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B3523D15772238004EB874 /* NSData+YBase64String.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3523815772238004EB874 /* NSData+YBase64String.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B3523E15772238004EB874 /* NSString+YBase64toData.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3523A15772238004EB874 /* NSString+YBase64toData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B35246157724E3004EB874 /* ybase64.c in Sources */ = {isa = PBXBuildFile; fileRef = A8B35244157723BC004EB874 /* ybase64.c */; };
+		A8B35248157725E2004EB874 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B35247157725E2004EB874 /* libz.dylib */; };
+		A8B3553315772C1E004EB874 /* TrelloLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8B3553215772C1E004EB874 /* TrelloLoginViewController.xib */; };
 		A8F969F015769E08007D2E6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F969EF15769E08007D2E6A /* UIKit.framework */; };
 		A8F969F215769E08007D2E6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F969F115769E08007D2E6A /* Foundation.framework */; };
 		A8F969F415769E08007D2E6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F969F315769E08007D2E6A /* CoreGraphics.framework */; };
@@ -15,10 +39,8 @@
 		A8F96A0015769E08007D2E6A /* VMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F969FF15769E08007D2E6A /* VMAppDelegate.m */; };
 		A8F96A0315769E08007D2E6A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F96A0115769E08007D2E6A /* MainStoryboard_iPhone.storyboard */; };
 		A8F96A0615769E08007D2E6A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F96A0415769E08007D2E6A /* MainStoryboard_iPad.storyboard */; };
-		A8F96A0915769E08007D2E6A /* VMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A0815769E08007D2E6A /* VMFirstViewController.m */; };
 		A8F96A0B15769E08007D2E6A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F96A0A15769E08007D2E6A /* first.png */; };
 		A8F96A0D15769E08007D2E6A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F96A0C15769E08007D2E6A /* first@2x.png */; };
-		A8F96A1015769E08007D2E6A /* VMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A0F15769E08007D2E6A /* VMSecondViewController.m */; };
 		A8F96A1215769E08007D2E6A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F96A1115769E08007D2E6A /* second.png */; };
 		A8F96A1415769E08007D2E6A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F96A1315769E08007D2E6A /* second@2x.png */; };
 		A8F96A1C15769E08007D2E6A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F96A1B15769E08007D2E6A /* SenTestingKit.framework */; };
@@ -26,9 +48,139 @@
 		A8F96A1E15769E08007D2E6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F969F115769E08007D2E6A /* Foundation.framework */; };
 		A8F96A2615769E08007D2E6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8F96A2415769E08007D2E6A /* InfoPlist.strings */; };
 		A8F96A2915769E08007D2E6A /* ios_trelloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A2815769E08007D2E6A /* ios_trelloTests.m */; };
+		A8F96A5A1576B263007D2E6A /* VMTrelloApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A451576B263007D2E6A /* VMTrelloApiClient.m */; };
+		A8F96A5C1576B263007D2E6A /* VMTrelloApiClient+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A471576B263007D2E6A /* VMTrelloApiClient+Action.m */; };
+		A8F96A5E1576B263007D2E6A /* VMTrelloApiClient+Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A491576B263007D2E6A /* VMTrelloApiClient+Board.m */; };
+		A8F96A601576B263007D2E6A /* VMTrelloApiClient+Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A4B1576B263007D2E6A /* VMTrelloApiClient+Card.m */; };
+		A8F96A621576B263007D2E6A /* VMTrelloApiClient+Checklist.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A4D1576B263007D2E6A /* VMTrelloApiClient+Checklist.m */; };
+		A8F96A641576B263007D2E6A /* VMTrelloApiClient+List.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A4F1576B263007D2E6A /* VMTrelloApiClient+List.m */; };
+		A8F96A661576B263007D2E6A /* VMTrelloApiClient+Member.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A511576B263007D2E6A /* VMTrelloApiClient+Member.m */; };
+		A8F96A681576B263007D2E6A /* VMTrelloApiClient+Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A531576B263007D2E6A /* VMTrelloApiClient+Notification.m */; };
+		A8F96A6A1576B263007D2E6A /* VMTrelloApiClient+Organization.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A551576B263007D2E6A /* VMTrelloApiClient+Organization.m */; };
+		A8F96A6C1576B263007D2E6A /* VMTrelloApiClient+Token.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A571576B263007D2E6A /* VMTrelloApiClient+Token.m */; };
+		A8F96A6E1576B263007D2E6A /* VMTrelloApiClient+Type.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A591576B263007D2E6A /* VMTrelloApiClient+Type.m */; };
+		A8F96A731576B2C1007D2E6A /* TrelloClientCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A711576B2C1007D2E6A /* TrelloClientCredentials.m */; };
+		A8F96A791576B341007D2E6A /* DPLogisticsConnectTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A781576B341007D2E6A /* DPLogisticsConnectTVC.m */; };
+		A8F96A7F1576B39D007D2E6A /* TrelloBoardListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A7C1576B39D007D2E6A /* TrelloBoardListViewController.m */; };
+		A8F96A811576B39D007D2E6A /* TrelloLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A7E1576B39D007D2E6A /* TrelloLoginViewController.m */; };
+		A8F96A991576B3D6007D2E6A /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A851576B3D6007D2E6A /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8F96A9B1576B3D6007D2E6A /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A871576B3D6007D2E6A /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8F96A9D1576B3D6007D2E6A /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A891576B3D6007D2E6A /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8F96A9F1576B3D6007D2E6A /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A8B1576B3D6007D2E6A /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8F96AA11576B3D6007D2E6A /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A8D1576B3D6007D2E6A /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8F96AA31576B3D6007D2E6A /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A8F1576B3D6007D2E6A /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8F96AA51576B3D6007D2E6A /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A921576B3D6007D2E6A /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8F96AA71576B3D6007D2E6A /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A941576B3D6007D2E6A /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8F96AA91576B3D6007D2E6A /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A961576B3D6007D2E6A /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8F96AAB1576B3D6007D2E6A /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96A981576B3D6007D2E6A /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8F96B511576B54B007D2E6A /* OAuthBaseFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96B4C1576B54B007D2E6A /* OAuthBaseFeedViewController.m */; };
+		A8F96B531576B54B007D2E6A /* OAuthv1BaseFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96B4E1576B54B007D2E6A /* OAuthv1BaseFeedViewController.m */; };
+		A8F96B551576B54B007D2E6A /* OAuthv1BaseLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96B501576B54B007D2E6A /* OAuthv1BaseLoginViewController.m */; };
+		A8F96B5C1576B6EB007D2E6A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96B5B1576B6EB007D2E6A /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8F96B601576B741007D2E6A /* DPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F96B5F1576B740007D2E6A /* DPTools.m */; };
+		A8F96B701576D6F5007D2E6A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F96B6F1576D6F5007D2E6A /* SystemConfiguration.framework */; };
+		A8F96B721576D723007D2E6A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F96B711576D723007D2E6A /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A8B351E615770ABE004EB874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A09913B147B9D6C005FBF4B;
+			remoteInfo = "ybase64-iOS";
+		};
+		A8B351E815770ABE004EB874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A0991DB147BA274005FBF4B;
+			remoteInfo = "ybase64additions-iOS";
+		};
+		A8B351EA15770ABE004EB874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A0991A4147BA059005FBF4B;
+			remoteInfo = "ycocoaadditions-iOS";
+		};
+		A8B351EC15770ABE004EB874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A099231147BA3F6005FBF4B;
+			remoteInfo = "yoauth-iOS";
+		};
+		A8B351EE15770ABE004EB874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AC0C4E4147E9B1C008E5AD5;
+			remoteInfo = "yoauthadditions-iOS";
+		};
+		A8B351F015770ABE004EB874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A09914B147B9D6C005FBF4B;
+			remoteInfo = ybase64Tests;
+		};
+		A8B351F215770ABE004EB874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A0991B1147BA059005FBF4B;
+			remoteInfo = ycocoaadditionsTests;
+		};
+		A8B351F415770ABE004EB874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A0991E8147BA274005FBF4B;
+			remoteInfo = ybase64additionsTests;
+		};
+		A8B351F615770ABE004EB874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A09923E147BA3F6005FBF4B;
+			remoteInfo = yoauthTests;
+		};
+		A8B351F815770ABE004EB874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AC17AEC147BB3FC00499A4F;
+			remoteInfo = ytoolkit;
+		};
+		A8B351FA15770ABE004EB874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AC0C4F1147E9B1C008E5AD5;
+			remoteInfo = yoauthadditionsTests;
+		};
+		A8B351FC15770ABE004EB874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AC0FCD21481318000E020AF;
+			remoteInfo = ytoolkitbundle;
+		};
+		A8B351FE15770ABE004EB874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AED768D1498FECE001074E5;
+			remoteInfo = "ycocoaadditions-MacOSX";
+		};
+		A8B35249157727C7004EB874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AC17AEB147BB3FC00499A4F;
+			remoteInfo = ytoolkit;
+		};
 		A8F96A1F15769E08007D2E6A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A8F969E215769E08007D2E6A /* Project object */;
@@ -39,6 +191,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8B3514115770ABD004EB874 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A8B3514215770ABD004EB874 /* BENCHMARK */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BENCHMARK; sourceTree = "<group>"; };
+		A8B3514315770ABD004EB874 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		A8B3514415770ABD004EB874 /* COPYING.LESSER */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.LESSER; sourceTree = "<group>"; };
+		A8B3514A15770ABD004EB874 /* ydefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ydefines.h; sourceTree = "<group>"; };
+		A8B3514B15770ABD004EB874 /* ymacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ymacros.h; sourceTree = "<group>"; };
+		A8B3514C15770ABD004EB874 /* ytiming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ytiming.h; sourceTree = "<group>"; };
+		A8B3514D15770ABD004EB874 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		A8B3517C15770ABD004EB874 /* ycocoaaditions-MacOSX-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ycocoaaditions-MacOSX-Prefix.pch"; sourceTree = "<group>"; };
+		A8B3518015770ABD004EB874 /* yoauthv1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauthv1.h; sourceTree = "<group>"; };
+		A8B3518115770ABD004EB874 /* yoauthv1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yoauthv1.m; sourceTree = "<group>"; };
+		A8B3518215770ABD004EB874 /* yoauthv1_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauthv1_internal.h; sourceTree = "<group>"; };
+		A8B3518315770ABD004EB874 /* yoauthv1_internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yoauthv1_internal.m; sourceTree = "<group>"; };
+		A8B3518515770ABD004EB874 /* NSError+YOAuthv2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+YOAuthv2.h"; sourceTree = "<group>"; };
+		A8B3518615770ABD004EB874 /* NSError+YOAuthv2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+YOAuthv2.m"; sourceTree = "<group>"; };
+		A8B3518715770ABD004EB874 /* yoauthv2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauthv2.h; sourceTree = "<group>"; };
+		A8B3518815770ABD004EB874 /* yoauthv2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yoauthv2.m; sourceTree = "<group>"; };
+		A8B3518915770ABD004EB874 /* yoauth-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "yoauth-Prefix.pch"; sourceTree = "<group>"; };
+		A8B3518A15770ABD004EB874 /* yoauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauth.h; sourceTree = "<group>"; };
+		A8B3518B15770ABD004EB874 /* yoauth_utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauth_utilities.h; sourceTree = "<group>"; };
+		A8B3518C15770ABD004EB874 /* yoauth_utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yoauth_utilities.m; sourceTree = "<group>"; };
+		A8B351A115770ABD004EB874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8B351A215770ABD004EB874 /* ytoolkit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ytoolkit-Info.plist"; sourceTree = "<group>"; };
+		A8B351A315770ABD004EB874 /* ytoolkit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ytoolkit-Prefix.pch"; sourceTree = "<group>"; };
+		A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ytoolkit.xcodeproj; sourceTree = "<group>"; };
+		A8B351A915770ABD004EB874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ErrorLocalizedString.strings; sourceTree = "<group>"; };
+		A8B351AB15770ABD004EB874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8B351AC15770ABD004EB874 /* ytoolkitbundle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ytoolkitbundle-Info.plist"; sourceTree = "<group>"; };
+		A8B351AD15770ABD004EB874 /* ytoolkitbundle-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ytoolkitbundle-Prefix.pch"; sourceTree = "<group>"; };
+		A8B35225157721B4004EB874 /* NSMutableURLRequest+YOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+YOAuth.h"; sourceTree = "<group>"; };
+		A8B35226157721B4004EB874 /* NSMutableURLRequest+YOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+YOAuth.m"; sourceTree = "<group>"; };
+		A8B35227157721B4004EB874 /* yoauthadditions-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "yoauthadditions-Prefix.pch"; sourceTree = "<group>"; };
+		A8B35228157721B4004EB874 /* yoauthadditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauthadditions.h; sourceTree = "<group>"; };
+		A8B3522B15772205004EB874 /* NSDictionary+YHTTPURLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YHTTPURLDictionary.h"; sourceTree = "<group>"; };
+		A8B3522C15772205004EB874 /* NSDictionary+YHTTPURLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YHTTPURLDictionary.m"; sourceTree = "<group>"; };
+		A8B3522D15772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+YDuplicatableDictionary.h"; sourceTree = "<group>"; };
+		A8B3522E15772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+YDuplicatableDictionary.m"; sourceTree = "<group>"; };
+		A8B3522F15772205004EB874 /* NSString+YHTTPURLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YHTTPURLString.h"; sourceTree = "<group>"; };
+		A8B3523015772205004EB874 /* NSString+YHTTPURLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YHTTPURLString.m"; sourceTree = "<group>"; };
+		A8B3523115772205004EB874 /* ycocoaadditions-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ycocoaadditions-Prefix.pch"; sourceTree = "<group>"; };
+		A8B3523215772205004EB874 /* ycocoaadditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ycocoaadditions.h; sourceTree = "<group>"; };
+		A8B3523715772238004EB874 /* NSData+YBase64String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YBase64String.h"; sourceTree = "<group>"; };
+		A8B3523815772238004EB874 /* NSData+YBase64String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YBase64String.m"; sourceTree = "<group>"; };
+		A8B3523915772238004EB874 /* NSString+YBase64toData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YBase64toData.h"; sourceTree = "<group>"; };
+		A8B3523A15772238004EB874 /* NSString+YBase64toData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YBase64toData.m"; sourceTree = "<group>"; };
+		A8B3523B15772238004EB874 /* ybase64additions-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ybase64additions-Prefix.pch"; sourceTree = "<group>"; };
+		A8B3523C15772238004EB874 /* ybase64additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ybase64additions.h; sourceTree = "<group>"; };
+		A8B352401577235F004EB874 /* ybase64-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ybase64-Prefix.pch"; sourceTree = "<group>"; };
+		A8B352421577235F004EB874 /* ybase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ybase64.h; sourceTree = "<group>"; };
+		A8B35244157723BC004EB874 /* ybase64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ybase64.c; sourceTree = "<group>"; };
+		A8B35247157725E2004EB874 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A8B3553215772C1E004EB874 /* TrelloLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrelloLoginViewController.xib; sourceTree = "<group>"; };
 		A8F969EB15769E08007D2E6A /* ios-trello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-trello.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F969EF15769E08007D2E6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A8F969F115769E08007D2E6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,12 +255,8 @@
 		A8F969FF15769E08007D2E6A /* VMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMAppDelegate.m; sourceTree = "<group>"; };
 		A8F96A0215769E08007D2E6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		A8F96A0515769E08007D2E6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		A8F96A0715769E08007D2E6A /* VMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMFirstViewController.h; sourceTree = "<group>"; };
-		A8F96A0815769E08007D2E6A /* VMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMFirstViewController.m; sourceTree = "<group>"; };
 		A8F96A0A15769E08007D2E6A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		A8F96A0C15769E08007D2E6A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		A8F96A0E15769E08007D2E6A /* VMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMSecondViewController.h; sourceTree = "<group>"; };
-		A8F96A0F15769E08007D2E6A /* VMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMSecondViewController.m; sourceTree = "<group>"; };
 		A8F96A1115769E08007D2E6A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		A8F96A1315769E08007D2E6A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		A8F96A1A15769E08007D2E6A /* ios-trelloTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-trelloTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +265,70 @@
 		A8F96A2515769E08007D2E6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A8F96A2715769E08007D2E6A /* ios_trelloTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_trelloTests.h; sourceTree = "<group>"; };
 		A8F96A2815769E08007D2E6A /* ios_trelloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_trelloTests.m; sourceTree = "<group>"; };
+		A8F96A441576B263007D2E6A /* VMTrelloApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTrelloApiClient.h; sourceTree = "<group>"; };
+		A8F96A451576B263007D2E6A /* VMTrelloApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTrelloApiClient.m; sourceTree = "<group>"; };
+		A8F96A461576B263007D2E6A /* VMTrelloApiClient+Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMTrelloApiClient+Action.h"; sourceTree = "<group>"; };
+		A8F96A471576B263007D2E6A /* VMTrelloApiClient+Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VMTrelloApiClient+Action.m"; sourceTree = "<group>"; };
+		A8F96A481576B263007D2E6A /* VMTrelloApiClient+Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMTrelloApiClient+Board.h"; sourceTree = "<group>"; };
+		A8F96A491576B263007D2E6A /* VMTrelloApiClient+Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VMTrelloApiClient+Board.m"; sourceTree = "<group>"; };
+		A8F96A4A1576B263007D2E6A /* VMTrelloApiClient+Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMTrelloApiClient+Card.h"; sourceTree = "<group>"; };
+		A8F96A4B1576B263007D2E6A /* VMTrelloApiClient+Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VMTrelloApiClient+Card.m"; sourceTree = "<group>"; };
+		A8F96A4C1576B263007D2E6A /* VMTrelloApiClient+Checklist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMTrelloApiClient+Checklist.h"; sourceTree = "<group>"; };
+		A8F96A4D1576B263007D2E6A /* VMTrelloApiClient+Checklist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VMTrelloApiClient+Checklist.m"; sourceTree = "<group>"; };
+		A8F96A4E1576B263007D2E6A /* VMTrelloApiClient+List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMTrelloApiClient+List.h"; sourceTree = "<group>"; };
+		A8F96A4F1576B263007D2E6A /* VMTrelloApiClient+List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VMTrelloApiClient+List.m"; sourceTree = "<group>"; };
+		A8F96A501576B263007D2E6A /* VMTrelloApiClient+Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMTrelloApiClient+Member.h"; sourceTree = "<group>"; };
+		A8F96A511576B263007D2E6A /* VMTrelloApiClient+Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VMTrelloApiClient+Member.m"; sourceTree = "<group>"; };
+		A8F96A521576B263007D2E6A /* VMTrelloApiClient+Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMTrelloApiClient+Notification.h"; sourceTree = "<group>"; };
+		A8F96A531576B263007D2E6A /* VMTrelloApiClient+Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VMTrelloApiClient+Notification.m"; sourceTree = "<group>"; };
+		A8F96A541576B263007D2E6A /* VMTrelloApiClient+Organization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMTrelloApiClient+Organization.h"; sourceTree = "<group>"; };
+		A8F96A551576B263007D2E6A /* VMTrelloApiClient+Organization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VMTrelloApiClient+Organization.m"; sourceTree = "<group>"; };
+		A8F96A561576B263007D2E6A /* VMTrelloApiClient+Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMTrelloApiClient+Token.h"; sourceTree = "<group>"; };
+		A8F96A571576B263007D2E6A /* VMTrelloApiClient+Token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VMTrelloApiClient+Token.m"; sourceTree = "<group>"; };
+		A8F96A581576B263007D2E6A /* VMTrelloApiClient+Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMTrelloApiClient+Type.h"; sourceTree = "<group>"; };
+		A8F96A591576B263007D2E6A /* VMTrelloApiClient+Type.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VMTrelloApiClient+Type.m"; sourceTree = "<group>"; };
+		A8F96A701576B2C1007D2E6A /* TrelloClientCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrelloClientCredentials.h; sourceTree = "<group>"; };
+		A8F96A711576B2C1007D2E6A /* TrelloClientCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrelloClientCredentials.m; sourceTree = "<group>"; };
+		A8F96A721576B2C1007D2E6A /* TrelloDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrelloDefines.h; sourceTree = "<group>"; };
+		A8F96A771576B341007D2E6A /* DPLogisticsConnectTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLogisticsConnectTVC.h; sourceTree = "<group>"; };
+		A8F96A781576B341007D2E6A /* DPLogisticsConnectTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLogisticsConnectTVC.m; sourceTree = "<group>"; };
+		A8F96A7B1576B39D007D2E6A /* TrelloBoardListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrelloBoardListViewController.h; sourceTree = "<group>"; };
+		A8F96A7C1576B39D007D2E6A /* TrelloBoardListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrelloBoardListViewController.m; sourceTree = "<group>"; };
+		A8F96A7D1576B39D007D2E6A /* TrelloLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrelloLoginViewController.h; sourceTree = "<group>"; };
+		A8F96A7E1576B39D007D2E6A /* TrelloLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrelloLoginViewController.m; sourceTree = "<group>"; };
+		A8F96A841576B3D6007D2E6A /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		A8F96A851576B3D6007D2E6A /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		A8F96A861576B3D6007D2E6A /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A8F96A871576B3D6007D2E6A /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A8F96A881576B3D6007D2E6A /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		A8F96A891576B3D6007D2E6A /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		A8F96A8A1576B3D6007D2E6A /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		A8F96A8B1576B3D6007D2E6A /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		A8F96A8C1576B3D6007D2E6A /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONUtilities.h; sourceTree = "<group>"; };
+		A8F96A8D1576B3D6007D2E6A /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONUtilities.m; sourceTree = "<group>"; };
+		A8F96A8E1576B3D6007D2E6A /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		A8F96A8F1576B3D6007D2E6A /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		A8F96A901576B3D6007D2E6A /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A8F96A911576B3D6007D2E6A /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		A8F96A921576B3D6007D2E6A /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		A8F96A931576B3D6007D2E6A /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A8F96A941576B3D6007D2E6A /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A8F96A951576B3D6007D2E6A /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		A8F96A961576B3D6007D2E6A /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		A8F96A971576B3D6007D2E6A /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		A8F96A981576B3D6007D2E6A /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A8F96B4B1576B54B007D2E6A /* OAuthBaseFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthBaseFeedViewController.h; sourceTree = "<group>"; };
+		A8F96B4C1576B54B007D2E6A /* OAuthBaseFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthBaseFeedViewController.m; sourceTree = "<group>"; };
+		A8F96B4D1576B54B007D2E6A /* OAuthv1BaseFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthv1BaseFeedViewController.h; sourceTree = "<group>"; };
+		A8F96B4E1576B54B007D2E6A /* OAuthv1BaseFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthv1BaseFeedViewController.m; sourceTree = "<group>"; };
+		A8F96B4F1576B54B007D2E6A /* OAuthv1BaseLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthv1BaseLoginViewController.h; sourceTree = "<group>"; };
+		A8F96B501576B54B007D2E6A /* OAuthv1BaseLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthv1BaseLoginViewController.m; sourceTree = "<group>"; };
+		A8F96B5A1576B6EB007D2E6A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A8F96B5B1576B6EB007D2E6A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A8F96B5E1576B740007D2E6A /* DPTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTools.h; sourceTree = "<group>"; };
+		A8F96B5F1576B740007D2E6A /* DPTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTools.m; sourceTree = "<group>"; };
+		A8F96B6F1576D6F5007D2E6A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A8F96B711576D723007D2E6A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +336,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8B35248157725E2004EB874 /* libz.dylib in Frameworks */,
+				A8F96B721576D723007D2E6A /* Security.framework in Frameworks */,
+				A8F96B701576D6F5007D2E6A /* SystemConfiguration.framework in Frameworks */,
 				A8F969F015769E08007D2E6A /* UIKit.framework in Frameworks */,
 				A8F969F215769E08007D2E6A /* Foundation.framework in Frameworks */,
 				A8F969F415769E08007D2E6A /* CoreGraphics.framework in Frameworks */,
@@ -91,6 +358,230 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A849DCB41576E06A008D411C /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				A8F96B581576B6BE007D2E6A /* Apple */,
+				A8F96AAD1576B410007D2E6A /* Dependencies */,
+				A8F96A831576B3D6007D2E6A /* AFNetworking */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		A8B3514015770ABD004EB874 /* ytoolkit */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3514115770ABD004EB874 /* .gitignore */,
+				A8B3514215770ABD004EB874 /* BENCHMARK */,
+				A8B3514315770ABD004EB874 /* COPYING */,
+				A8B3514415770ABD004EB874 /* COPYING.LESSER */,
+				A8B3514515770ABD004EB874 /* externals */,
+				A8B3514915770ABD004EB874 /* include */,
+				A8B3514D15770ABD004EB874 /* README.markdown */,
+				A8B3514E15770ABD004EB874 /* ybase64 */,
+				A8B3515B15770ABD004EB874 /* ybase64additions */,
+				A8B3516915770ABD004EB874 /* ycocoaadditions */,
+				A8B3517B15770ABD004EB874 /* ycocoaaditions-MacOSX */,
+				A8B3517D15770ABD004EB874 /* yoauth */,
+				A8B3519315770ABD004EB874 /* yoauthadditions */,
+				A8B3519F15770ABD004EB874 /* ytoolkit */,
+				A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */,
+				A8B351A715770ABD004EB874 /* ytoolkitbundle */,
+			);
+			name = ytoolkit;
+			path = ../ytoolkit;
+			sourceTree = "<group>";
+		};
+		A8B3514515770ABD004EB874 /* externals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = externals;
+			sourceTree = "<group>";
+		};
+		A8B3514915770ABD004EB874 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3514A15770ABD004EB874 /* ydefines.h */,
+				A8B3514B15770ABD004EB874 /* ymacros.h */,
+				A8B3514C15770ABD004EB874 /* ytiming.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A8B3514E15770ABD004EB874 /* ybase64 */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3523F1577235F004EB874 /* code */,
+			);
+			path = ybase64;
+			sourceTree = "<group>";
+		};
+		A8B3515B15770ABD004EB874 /* ybase64additions */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3523615772238004EB874 /* code */,
+			);
+			path = ybase64additions;
+			sourceTree = "<group>";
+		};
+		A8B3516915770ABD004EB874 /* ycocoaadditions */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3522A15772205004EB874 /* code */,
+			);
+			path = ycocoaadditions;
+			sourceTree = "<group>";
+		};
+		A8B3517B15770ABD004EB874 /* ycocoaaditions-MacOSX */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3517C15770ABD004EB874 /* ycocoaaditions-MacOSX-Prefix.pch */,
+			);
+			path = "ycocoaaditions-MacOSX";
+			sourceTree = "<group>";
+		};
+		A8B3517D15770ABD004EB874 /* yoauth */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3517E15770ABD004EB874 /* code */,
+			);
+			path = yoauth;
+			sourceTree = "<group>";
+		};
+		A8B3517E15770ABD004EB874 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3517F15770ABD004EB874 /* oauthv1 */,
+				A8B3518415770ABD004EB874 /* oauthv2 */,
+				A8B3518915770ABD004EB874 /* yoauth-Prefix.pch */,
+				A8B3518A15770ABD004EB874 /* yoauth.h */,
+				A8B3518B15770ABD004EB874 /* yoauth_utilities.h */,
+				A8B3518C15770ABD004EB874 /* yoauth_utilities.m */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		A8B3517F15770ABD004EB874 /* oauthv1 */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3518015770ABD004EB874 /* yoauthv1.h */,
+				A8B3518115770ABD004EB874 /* yoauthv1.m */,
+				A8B3518215770ABD004EB874 /* yoauthv1_internal.h */,
+				A8B3518315770ABD004EB874 /* yoauthv1_internal.m */,
+			);
+			path = oauthv1;
+			sourceTree = "<group>";
+		};
+		A8B3518415770ABD004EB874 /* oauthv2 */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3518515770ABD004EB874 /* NSError+YOAuthv2.h */,
+				A8B3518615770ABD004EB874 /* NSError+YOAuthv2.m */,
+				A8B3518715770ABD004EB874 /* yoauthv2.h */,
+				A8B3518815770ABD004EB874 /* yoauthv2.m */,
+			);
+			path = oauthv2;
+			sourceTree = "<group>";
+		};
+		A8B3519315770ABD004EB874 /* yoauthadditions */ = {
+			isa = PBXGroup;
+			children = (
+				A8B35224157721B4004EB874 /* code */,
+			);
+			path = yoauthadditions;
+			sourceTree = "<group>";
+		};
+		A8B3519F15770ABD004EB874 /* ytoolkit */ = {
+			isa = PBXGroup;
+			children = (
+				A8B351A015770ABD004EB874 /* InfoPlist.strings */,
+				A8B351A215770ABD004EB874 /* ytoolkit-Info.plist */,
+				A8B351A315770ABD004EB874 /* ytoolkit-Prefix.pch */,
+			);
+			path = ytoolkit;
+			sourceTree = "<group>";
+		};
+		A8B351A515770ABD004EB874 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8B351E715770ABE004EB874 /* libybase64.a */,
+				A8B351E915770ABE004EB874 /* libybase64additions.a */,
+				A8B351EB15770ABE004EB874 /* libycocoaadditions.a */,
+				A8B351ED15770ABE004EB874 /* libyoauth.a */,
+				A8B351EF15770ABE004EB874 /* libyoauthadditions.a */,
+				A8B351F115770ABE004EB874 /* ybase64Tests.octest */,
+				A8B351F315770ABE004EB874 /* ycocoaadditionsTests.octest */,
+				A8B351F515770ABE004EB874 /* ybase64additionsTests.octest */,
+				A8B351F715770ABE004EB874 /* yoauthTests.octest */,
+				A8B351F915770ABE004EB874 /* ytoolkit.framework */,
+				A8B351FB15770ABE004EB874 /* yoauthadditionsTests.octest */,
+				A8B351FD15770ABE004EB874 /* ytoolkitbundle.bundle */,
+				A8B351FF15770ABE004EB874 /* libycocoaadditions.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8B351A715770ABD004EB874 /* ytoolkitbundle */ = {
+			isa = PBXGroup;
+			children = (
+				A8B351A815770ABD004EB874 /* ErrorLocalizedString.strings */,
+				A8B351AA15770ABD004EB874 /* InfoPlist.strings */,
+				A8B351AC15770ABD004EB874 /* ytoolkitbundle-Info.plist */,
+				A8B351AD15770ABD004EB874 /* ytoolkitbundle-Prefix.pch */,
+			);
+			path = ytoolkitbundle;
+			sourceTree = "<group>";
+		};
+		A8B35224157721B4004EB874 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				A8B35225157721B4004EB874 /* NSMutableURLRequest+YOAuth.h */,
+				A8B35226157721B4004EB874 /* NSMutableURLRequest+YOAuth.m */,
+				A8B35227157721B4004EB874 /* yoauthadditions-Prefix.pch */,
+				A8B35228157721B4004EB874 /* yoauthadditions.h */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		A8B3522A15772205004EB874 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3522B15772205004EB874 /* NSDictionary+YHTTPURLDictionary.h */,
+				A8B3522C15772205004EB874 /* NSDictionary+YHTTPURLDictionary.m */,
+				A8B3522D15772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.h */,
+				A8B3522E15772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m */,
+				A8B3522F15772205004EB874 /* NSString+YHTTPURLString.h */,
+				A8B3523015772205004EB874 /* NSString+YHTTPURLString.m */,
+				A8B3523115772205004EB874 /* ycocoaadditions-Prefix.pch */,
+				A8B3523215772205004EB874 /* ycocoaadditions.h */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		A8B3523615772238004EB874 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3523715772238004EB874 /* NSData+YBase64String.h */,
+				A8B3523815772238004EB874 /* NSData+YBase64String.m */,
+				A8B3523915772238004EB874 /* NSString+YBase64toData.h */,
+				A8B3523A15772238004EB874 /* NSString+YBase64toData.m */,
+				A8B3523B15772238004EB874 /* ybase64additions-Prefix.pch */,
+				A8B3523C15772238004EB874 /* ybase64additions.h */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		A8B3523F1577235F004EB874 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				A8B35244157723BC004EB874 /* ybase64.c */,
+				A8B352401577235F004EB874 /* ybase64-Prefix.pch */,
+				A8B352421577235F004EB874 /* ybase64.h */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
 		A8F969E015769E08007D2E6A = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +604,9 @@
 		A8F969EE15769E08007D2E6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A8B35247157725E2004EB874 /* libz.dylib */,
+				A8F96B711576D723007D2E6A /* Security.framework */,
+				A8F96B6F1576D6F5007D2E6A /* SystemConfiguration.framework */,
 				A8F969EF15769E08007D2E6A /* UIKit.framework */,
 				A8F969F115769E08007D2E6A /* Foundation.framework */,
 				A8F969F315769E08007D2E6A /* CoreGraphics.framework */,
@@ -124,18 +618,8 @@
 		A8F969F515769E08007D2E6A /* ios-trello */ = {
 			isa = PBXGroup;
 			children = (
-				A8F969FE15769E08007D2E6A /* VMAppDelegate.h */,
-				A8F969FF15769E08007D2E6A /* VMAppDelegate.m */,
-				A8F96A0115769E08007D2E6A /* MainStoryboard_iPhone.storyboard */,
-				A8F96A0415769E08007D2E6A /* MainStoryboard_iPad.storyboard */,
-				A8F96A0715769E08007D2E6A /* VMFirstViewController.h */,
-				A8F96A0815769E08007D2E6A /* VMFirstViewController.m */,
-				A8F96A0A15769E08007D2E6A /* first.png */,
-				A8F96A0C15769E08007D2E6A /* first@2x.png */,
-				A8F96A0E15769E08007D2E6A /* VMSecondViewController.h */,
-				A8F96A0F15769E08007D2E6A /* VMSecondViewController.m */,
-				A8F96A1115769E08007D2E6A /* second.png */,
-				A8F96A1315769E08007D2E6A /* second@2x.png */,
+				A8F96A431576B22D007D2E6A /* API */,
+				A8F96A751576B2E8007D2E6A /* ios-Demo */,
 				A8F969F615769E08007D2E6A /* Supporting Files */,
 			);
 			path = "ios-trello";
@@ -171,6 +655,146 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A8F96A431576B22D007D2E6A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A8F96A721576B2C1007D2E6A /* TrelloDefines.h */,
+				A8F96A701576B2C1007D2E6A /* TrelloClientCredentials.h */,
+				A8F96A711576B2C1007D2E6A /* TrelloClientCredentials.m */,
+				A8F96A441576B263007D2E6A /* VMTrelloApiClient.h */,
+				A8F96A451576B263007D2E6A /* VMTrelloApiClient.m */,
+				A8F96A461576B263007D2E6A /* VMTrelloApiClient+Action.h */,
+				A8F96A471576B263007D2E6A /* VMTrelloApiClient+Action.m */,
+				A8F96A481576B263007D2E6A /* VMTrelloApiClient+Board.h */,
+				A8F96A491576B263007D2E6A /* VMTrelloApiClient+Board.m */,
+				A8F96A4A1576B263007D2E6A /* VMTrelloApiClient+Card.h */,
+				A8F96A4B1576B263007D2E6A /* VMTrelloApiClient+Card.m */,
+				A8F96A4C1576B263007D2E6A /* VMTrelloApiClient+Checklist.h */,
+				A8F96A4D1576B263007D2E6A /* VMTrelloApiClient+Checklist.m */,
+				A8F96A4E1576B263007D2E6A /* VMTrelloApiClient+List.h */,
+				A8F96A4F1576B263007D2E6A /* VMTrelloApiClient+List.m */,
+				A8F96A501576B263007D2E6A /* VMTrelloApiClient+Member.h */,
+				A8F96A511576B263007D2E6A /* VMTrelloApiClient+Member.m */,
+				A8F96A521576B263007D2E6A /* VMTrelloApiClient+Notification.h */,
+				A8F96A531576B263007D2E6A /* VMTrelloApiClient+Notification.m */,
+				A8F96A541576B263007D2E6A /* VMTrelloApiClient+Organization.h */,
+				A8F96A551576B263007D2E6A /* VMTrelloApiClient+Organization.m */,
+				A8F96A561576B263007D2E6A /* VMTrelloApiClient+Token.h */,
+				A8F96A571576B263007D2E6A /* VMTrelloApiClient+Token.m */,
+				A8F96A581576B263007D2E6A /* VMTrelloApiClient+Type.h */,
+				A8F96A591576B263007D2E6A /* VMTrelloApiClient+Type.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		A8F96A751576B2E8007D2E6A /* ios-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A8F96A761576B30A007D2E6A /* Sources */,
+				A849DCB41576E06A008D411C /* Vendor */,
+				A8F96B4A1576B4A3007D2E6A /* Template */,
+			);
+			name = "ios-Demo";
+			sourceTree = "<group>";
+		};
+		A8F96A761576B30A007D2E6A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A8F96B5E1576B740007D2E6A /* DPTools.h */,
+				A8F96B5F1576B740007D2E6A /* DPTools.m */,
+				A8F96B571576B55C007D2E6A /* ytoolkit_OAuth_v1 */,
+				A8F96A7B1576B39D007D2E6A /* TrelloBoardListViewController.h */,
+				A8F96A7C1576B39D007D2E6A /* TrelloBoardListViewController.m */,
+				A8F96A7D1576B39D007D2E6A /* TrelloLoginViewController.h */,
+				A8F96A7E1576B39D007D2E6A /* TrelloLoginViewController.m */,
+				A8F96A771576B341007D2E6A /* DPLogisticsConnectTVC.h */,
+				A8F96A781576B341007D2E6A /* DPLogisticsConnectTVC.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		A8F96A831576B3D6007D2E6A /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A8F96A841576B3D6007D2E6A /* AFHTTPClient.h */,
+				A8F96A851576B3D6007D2E6A /* AFHTTPClient.m */,
+				A8F96A861576B3D6007D2E6A /* AFHTTPRequestOperation.h */,
+				A8F96A871576B3D6007D2E6A /* AFHTTPRequestOperation.m */,
+				A8F96A881576B3D6007D2E6A /* AFImageRequestOperation.h */,
+				A8F96A891576B3D6007D2E6A /* AFImageRequestOperation.m */,
+				A8F96A8A1576B3D6007D2E6A /* AFJSONRequestOperation.h */,
+				A8F96A8B1576B3D6007D2E6A /* AFJSONRequestOperation.m */,
+				A8F96A8C1576B3D6007D2E6A /* AFJSONUtilities.h */,
+				A8F96A8D1576B3D6007D2E6A /* AFJSONUtilities.m */,
+				A8F96A8E1576B3D6007D2E6A /* AFNetworkActivityIndicatorManager.h */,
+				A8F96A8F1576B3D6007D2E6A /* AFNetworkActivityIndicatorManager.m */,
+				A8F96A901576B3D6007D2E6A /* AFNetworking.h */,
+				A8F96A911576B3D6007D2E6A /* AFPropertyListRequestOperation.h */,
+				A8F96A921576B3D6007D2E6A /* AFPropertyListRequestOperation.m */,
+				A8F96A931576B3D6007D2E6A /* AFURLConnectionOperation.h */,
+				A8F96A941576B3D6007D2E6A /* AFURLConnectionOperation.m */,
+				A8F96A951576B3D6007D2E6A /* AFXMLRequestOperation.h */,
+				A8F96A961576B3D6007D2E6A /* AFXMLRequestOperation.m */,
+				A8F96A971576B3D6007D2E6A /* UIImageView+AFNetworking.h */,
+				A8F96A981576B3D6007D2E6A /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A8F96AAD1576B410007D2E6A /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3514015770ABD004EB874 /* ytoolkit */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		A8F96B4A1576B4A3007D2E6A /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3553215772C1E004EB874 /* TrelloLoginViewController.xib */,
+				A8F969FE15769E08007D2E6A /* VMAppDelegate.h */,
+				A8F969FF15769E08007D2E6A /* VMAppDelegate.m */,
+				A8F96A0115769E08007D2E6A /* MainStoryboard_iPhone.storyboard */,
+				A8F96A0415769E08007D2E6A /* MainStoryboard_iPad.storyboard */,
+				A8F96A0A15769E08007D2E6A /* first.png */,
+				A8F96A0C15769E08007D2E6A /* first@2x.png */,
+				A8F96A1115769E08007D2E6A /* second.png */,
+				A8F96A1315769E08007D2E6A /* second@2x.png */,
+			);
+			name = Template;
+			sourceTree = "<group>";
+		};
+		A8F96B571576B55C007D2E6A /* ytoolkit_OAuth_v1 */ = {
+			isa = PBXGroup;
+			children = (
+				A8F96B4B1576B54B007D2E6A /* OAuthBaseFeedViewController.h */,
+				A8F96B4C1576B54B007D2E6A /* OAuthBaseFeedViewController.m */,
+				A8F96B4D1576B54B007D2E6A /* OAuthv1BaseFeedViewController.h */,
+				A8F96B4E1576B54B007D2E6A /* OAuthv1BaseFeedViewController.m */,
+				A8F96B4F1576B54B007D2E6A /* OAuthv1BaseLoginViewController.h */,
+				A8F96B501576B54B007D2E6A /* OAuthv1BaseLoginViewController.m */,
+			);
+			name = ytoolkit_OAuth_v1;
+			sourceTree = "<group>";
+		};
+		A8F96B581576B6BE007D2E6A /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				A8F96B591576B6EB007D2E6A /* Reachability */,
+			);
+			name = Apple;
+			sourceTree = "<group>";
+		};
+		A8F96B591576B6EB007D2E6A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				A8F96B5A1576B6EB007D2E6A /* Reachability.h */,
+				A8F96B5B1576B6EB007D2E6A /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,6 +809,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A8B3524A157727C7004EB874 /* PBXTargetDependency */,
 			);
 			name = "ios-trello";
 			productName = "ios-trello";
@@ -230,6 +855,12 @@
 			mainGroup = A8F969E015769E08007D2E6A;
 			productRefGroup = A8F969EC15769E08007D2E6A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A8B351A515770ABD004EB874 /* Products */;
+					ProjectRef = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A8F969EA15769E08007D2E6A /* ios-trello */,
@@ -237,6 +868,100 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A8B351E715770ABE004EB874 /* libybase64.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libybase64.a;
+			remoteRef = A8B351E615770ABE004EB874 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8B351E915770ABE004EB874 /* libybase64additions.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libybase64additions.a;
+			remoteRef = A8B351E815770ABE004EB874 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8B351EB15770ABE004EB874 /* libycocoaadditions.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libycocoaadditions.a;
+			remoteRef = A8B351EA15770ABE004EB874 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8B351ED15770ABE004EB874 /* libyoauth.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoauth.a;
+			remoteRef = A8B351EC15770ABE004EB874 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8B351EF15770ABE004EB874 /* libyoauthadditions.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoauthadditions.a;
+			remoteRef = A8B351EE15770ABE004EB874 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8B351F115770ABE004EB874 /* ybase64Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ybase64Tests.octest;
+			remoteRef = A8B351F015770ABE004EB874 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8B351F315770ABE004EB874 /* ycocoaadditionsTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ycocoaadditionsTests.octest;
+			remoteRef = A8B351F215770ABE004EB874 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8B351F515770ABE004EB874 /* ybase64additionsTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ybase64additionsTests.octest;
+			remoteRef = A8B351F415770ABE004EB874 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8B351F715770ABE004EB874 /* yoauthTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = yoauthTests.octest;
+			remoteRef = A8B351F615770ABE004EB874 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8B351F915770ABE004EB874 /* ytoolkit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ytoolkit.framework;
+			remoteRef = A8B351F815770ABE004EB874 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8B351FB15770ABE004EB874 /* yoauthadditionsTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = yoauthadditionsTests.octest;
+			remoteRef = A8B351FA15770ABE004EB874 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8B351FD15770ABE004EB874 /* ytoolkitbundle.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ytoolkitbundle.bundle;
+			remoteRef = A8B351FC15770ABE004EB874 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8B351FF15770ABE004EB874 /* libycocoaadditions.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libycocoaadditions.a;
+			remoteRef = A8B351FE15770ABE004EB874 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A8F969E915769E08007D2E6A /* Resources */ = {
@@ -250,6 +975,17 @@
 				A8F96A0D15769E08007D2E6A /* first@2x.png in Resources */,
 				A8F96A1215769E08007D2E6A /* second.png in Resources */,
 				A8F96A1415769E08007D2E6A /* second@2x.png in Resources */,
+				A8B351B115770ABD004EB874 /* .gitignore in Resources */,
+				A8B351B215770ABD004EB874 /* BENCHMARK in Resources */,
+				A8B351B315770ABD004EB874 /* COPYING in Resources */,
+				A8B351B415770ABD004EB874 /* COPYING.LESSER in Resources */,
+				A8B351B615770ABD004EB874 /* README.markdown in Resources */,
+				A8B351D415770ABD004EB874 /* InfoPlist.strings in Resources */,
+				A8B351D515770ABD004EB874 /* ytoolkit-Info.plist in Resources */,
+				A8B351D615770ABD004EB874 /* ErrorLocalizedString.strings in Resources */,
+				A8B351D715770ABD004EB874 /* InfoPlist.strings in Resources */,
+				A8B351D815770ABD004EB874 /* ytoolkitbundle-Info.plist in Resources */,
+				A8B3553315772C1E004EB874 /* TrelloLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +1022,48 @@
 			files = (
 				A8F969FC15769E08007D2E6A /* main.m in Sources */,
 				A8F96A0015769E08007D2E6A /* VMAppDelegate.m in Sources */,
-				A8F96A0915769E08007D2E6A /* VMFirstViewController.m in Sources */,
-				A8F96A1015769E08007D2E6A /* VMSecondViewController.m in Sources */,
+				A8F96A5A1576B263007D2E6A /* VMTrelloApiClient.m in Sources */,
+				A8F96A5C1576B263007D2E6A /* VMTrelloApiClient+Action.m in Sources */,
+				A8F96A5E1576B263007D2E6A /* VMTrelloApiClient+Board.m in Sources */,
+				A8F96A601576B263007D2E6A /* VMTrelloApiClient+Card.m in Sources */,
+				A8F96A621576B263007D2E6A /* VMTrelloApiClient+Checklist.m in Sources */,
+				A8F96A641576B263007D2E6A /* VMTrelloApiClient+List.m in Sources */,
+				A8F96A661576B263007D2E6A /* VMTrelloApiClient+Member.m in Sources */,
+				A8F96A681576B263007D2E6A /* VMTrelloApiClient+Notification.m in Sources */,
+				A8F96A6A1576B263007D2E6A /* VMTrelloApiClient+Organization.m in Sources */,
+				A8F96A6C1576B263007D2E6A /* VMTrelloApiClient+Token.m in Sources */,
+				A8F96A6E1576B263007D2E6A /* VMTrelloApiClient+Type.m in Sources */,
+				A8F96A731576B2C1007D2E6A /* TrelloClientCredentials.m in Sources */,
+				A8F96A791576B341007D2E6A /* DPLogisticsConnectTVC.m in Sources */,
+				A8F96A7F1576B39D007D2E6A /* TrelloBoardListViewController.m in Sources */,
+				A8F96A811576B39D007D2E6A /* TrelloLoginViewController.m in Sources */,
+				A8F96A991576B3D6007D2E6A /* AFHTTPClient.m in Sources */,
+				A8F96A9B1576B3D6007D2E6A /* AFHTTPRequestOperation.m in Sources */,
+				A8F96A9D1576B3D6007D2E6A /* AFImageRequestOperation.m in Sources */,
+				A8F96A9F1576B3D6007D2E6A /* AFJSONRequestOperation.m in Sources */,
+				A8F96AA11576B3D6007D2E6A /* AFJSONUtilities.m in Sources */,
+				A8F96AA31576B3D6007D2E6A /* AFNetworkActivityIndicatorManager.m in Sources */,
+				A8F96AA51576B3D6007D2E6A /* AFPropertyListRequestOperation.m in Sources */,
+				A8F96AA71576B3D6007D2E6A /* AFURLConnectionOperation.m in Sources */,
+				A8F96AA91576B3D6007D2E6A /* AFXMLRequestOperation.m in Sources */,
+				A8F96AAB1576B3D6007D2E6A /* UIImageView+AFNetworking.m in Sources */,
+				A8F96B511576B54B007D2E6A /* OAuthBaseFeedViewController.m in Sources */,
+				A8F96B531576B54B007D2E6A /* OAuthv1BaseFeedViewController.m in Sources */,
+				A8F96B551576B54B007D2E6A /* OAuthv1BaseLoginViewController.m in Sources */,
+				A8F96B5C1576B6EB007D2E6A /* Reachability.m in Sources */,
+				A8F96B601576B741007D2E6A /* DPTools.m in Sources */,
+				A8B351C815770ABD004EB874 /* yoauthv1.m in Sources */,
+				A8B351C915770ABD004EB874 /* yoauthv1_internal.m in Sources */,
+				A8B351CA15770ABD004EB874 /* NSError+YOAuthv2.m in Sources */,
+				A8B351CB15770ABD004EB874 /* yoauthv2.m in Sources */,
+				A8B351CC15770ABD004EB874 /* yoauth_utilities.m in Sources */,
+				A8B35229157721B4004EB874 /* NSMutableURLRequest+YOAuth.m in Sources */,
+				A8B3523315772205004EB874 /* NSDictionary+YHTTPURLDictionary.m in Sources */,
+				A8B3523415772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m in Sources */,
+				A8B3523515772205004EB874 /* NSString+YHTTPURLString.m in Sources */,
+				A8B3523D15772238004EB874 /* NSData+YBase64String.m in Sources */,
+				A8B3523E15772238004EB874 /* NSString+YBase64toData.m in Sources */,
+				A8B35246157724E3004EB874 /* ybase64.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +1078,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A8B3524A157727C7004EB874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ytoolkit;
+			targetProxy = A8B35249157727C7004EB874 /* PBXContainerItemProxy */;
+		};
 		A8F96A2015769E08007D2E6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A8F969EA15769E08007D2E6A /* ios-trello */;
@@ -310,6 +1091,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A8B351A015770ABD004EB874 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8B351A115770ABD004EB874 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8B351A815770ABD004EB874 /* ErrorLocalizedString.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8B351A915770ABD004EB874 /* en */,
+			);
+			name = ErrorLocalizedString.strings;
+			sourceTree = "<group>";
+		};
+		A8B351AA15770ABD004EB874 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8B351AB15770ABD004EB874 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		A8F969F815769E08007D2E6A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,6 +1171,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -386,6 +1195,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -395,9 +1208,18 @@
 		A8F96A2D15769E08007D2E6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../DancePlanner\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-trello/ios-trello-Prefix.pch";
+				HEADER_SEARCH_PATHS = "{BUILT_PRODUCTS_DIR}/usr/local/include";
 				INFOPLIST_FILE = "ios-trello/ios-trello-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,9 +1228,18 @@
 		A8F96A2E15769E08007D2E6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../DancePlanner\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-trello/ios-trello-Prefix.pch";
+				HEADER_SEARCH_PATHS = "{BUILT_PRODUCTS_DIR}/usr/local/include";
 				INFOPLIST_FILE = "ios-trello/ios-trello-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -467,6 +1298,7 @@
 				A8F96A2E15769E08007D2E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8F96A2F15769E08007D2E6A /* Build configuration list for PBXNativeTarget "ios-trelloTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +1307,7 @@
 				A8F96A3115769E08007D2E6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
