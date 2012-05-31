@@ -8,6 +8,24 @@
 
 #import "VMTrelloApiClient.h"
 
+/*
+ checklist
+ 
+ GET /1/checklists/[checklist_id]
+ GET /1/checklists/[checklist_id]/[field]
+ GET /1/checklists/[checklist_id]/board
+ GET /1/checklists/[checklist_id]/board/[field]
+ GET /1/checklists/[checklist_id]/cards
+ GET /1/checklists/[checklist_id]/cards/[filter]
+ GET /1/checklists/[checklist_id]/checkItems
+ PUT /1/checklists/[checklist_id]
+ PUT /1/checklists/[checklist_id]/name
+ POST /1/checklists
+ POST /1/checklists/[checklist_id]/checkItems
+ DELETE /1/checklists/[checklist_id]/checkItems/[idCheckItem]
+ 
+ */
+
 @interface VMTrelloApiClient (Checklist)
 
 @end

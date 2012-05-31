@@ -9,17 +9,6 @@
 #import "VMTrelloApiClient+Token.h"
 #import "TrelloClientCredentials.h"
 
-/*
- token
- 
- GET /1/tokens/[token]
- GET /1/tokens/[token]/[field]
- GET /1/tokens/[token]/member
- GET /1/tokens/[token]/member/[field]
- DELETE /1/tokens/[token]                                                       deleteToken
-  
- */
-
 @implementation VMTrelloApiClient (Token)
 
 - (void)deleteToken:(NSString *)token success:(JSONSuccess_block_t)JSONSuccess_block failure:(void (^)(NSError *))failure
@@ -29,5 +18,39 @@
      
     TRELLO_API_DELETE(deleteToken);
 }
+
+- (void)getTokens:(NSString *)token
+          success:(JSONSuccess_block_t)JSONSuccess_block
+          failure:(void (^)(NSError *error))failure
+{
+    
+}
+
+- (void)getTokens:(NSString *)token
+field:(NSArray *)fields
+success:(JSONSuccess_block_t)JSONSuccess_block
+failure:(void (^)(NSError *error))failure
+{
+    
+}
+
+- (void)getTokens:(NSString *)token
+           member:(NSString *)member
+          success:(JSONSuccess_block_t)JSONSuccess_block
+          failure:(void (^)(NSError *error))failure
+{
+    
+}
+
+- (void)getTokens:(NSString *)token
+member:(NSString *)member
+field:(NSArray *)fields
+success:(JSONSuccess_block_t)JSONSuccess_block
+failure:(void (^)(NSError *error))failure
+{
+    
+}
+
+
 
 @end

@@ -8,6 +8,24 @@
 
 #import "VMTrelloApiClient.h"
 
+/*
+ list
+ 
+ GET /1/lists/[list_id]
+ GET /1/lists/[list_id]/[field]
+ GET /1/lists/[list_id]/actions
+ GET /1/lists/[list_id]/board
+ GET /1/lists/[list_id]/board/[field]
+ GET /1/lists/[list_id]/cards
+ GET /1/lists/[list_id]/cards/[filter]
+ PUT /1/lists/[list_id]
+ PUT /1/lists/[list_id]/closed
+ PUT /1/lists/[list_id]/name
+ POST /1/lists
+ POST /1/lists/[list_id]/cards
+ 
+ */
+
 @interface VMTrelloApiClient (List)
 
 @end
