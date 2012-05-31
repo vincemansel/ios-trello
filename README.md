@@ -82,7 +82,7 @@ Assuming you have those listed in a tableView, here is how to access one board a
 ```
 
 
-Here is how to get started.
+Here is how to get going...
 ======
 
 ## Additional Sources Required:
@@ -134,9 +134,11 @@ Under Targets > ios-trello > Build Phases > Link Binary with Libraries:
 
 ## Client Source Configuration
 
+0. If you haven't already, create a Trello account.
+
 1. Go to [Trello Docs](https://trello.com/docs/) and generate an Application Key
 
-2. Substitute your keys in the file TrelloClientCredentials.m
+2. Create the file  TrelloClientCredentials.m and substitute your keys.
 
 3. (See Demo): In TrelloLoginViewController.m, globally substitute Your_App_Name for ios4Trello.
 (This will let your users know that your app is seeking authorization to access thier Trello account.)
