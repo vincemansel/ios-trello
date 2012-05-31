@@ -12,25 +12,24 @@
 		A8B351B315770ABD004EB874 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = A8B3514315770ABD004EB874 /* COPYING */; };
 		A8B351B415770ABD004EB874 /* COPYING.LESSER in Resources */ = {isa = PBXBuildFile; fileRef = A8B3514415770ABD004EB874 /* COPYING.LESSER */; };
 		A8B351B615770ABD004EB874 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = A8B3514D15770ABD004EB874 /* README.markdown */; };
-		A8B351C815770ABD004EB874 /* yoauthv1.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518115770ABD004EB874 /* yoauthv1.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B351C915770ABD004EB874 /* yoauthv1_internal.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518315770ABD004EB874 /* yoauthv1_internal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B351CA15770ABD004EB874 /* NSError+YOAuthv2.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518615770ABD004EB874 /* NSError+YOAuthv2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B351CB15770ABD004EB874 /* yoauthv2.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518815770ABD004EB874 /* yoauthv2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B351CC15770ABD004EB874 /* yoauth_utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518C15770ABD004EB874 /* yoauth_utilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A8B351D415770ABD004EB874 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8B351A015770ABD004EB874 /* InfoPlist.strings */; };
 		A8B351D515770ABD004EB874 /* ytoolkit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8B351A215770ABD004EB874 /* ytoolkit-Info.plist */; };
 		A8B351D615770ABD004EB874 /* ErrorLocalizedString.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8B351A815770ABD004EB874 /* ErrorLocalizedString.strings */; };
 		A8B351D715770ABD004EB874 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8B351AA15770ABD004EB874 /* InfoPlist.strings */; };
 		A8B351D815770ABD004EB874 /* ytoolkitbundle-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8B351AC15770ABD004EB874 /* ytoolkitbundle-Info.plist */; };
-		A8B35229157721B4004EB874 /* NSMutableURLRequest+YOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B35226157721B4004EB874 /* NSMutableURLRequest+YOAuth.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B3523315772205004EB874 /* NSDictionary+YHTTPURLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3522C15772205004EB874 /* NSDictionary+YHTTPURLDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B3523415772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3522E15772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B3523515772205004EB874 /* NSString+YHTTPURLString.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3523015772205004EB874 /* NSString+YHTTPURLString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B3523D15772238004EB874 /* NSData+YBase64String.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3523815772238004EB874 /* NSData+YBase64String.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B3523E15772238004EB874 /* NSString+YBase64toData.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3523A15772238004EB874 /* NSString+YBase64toData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B35246157724E3004EB874 /* ybase64.c in Sources */ = {isa = PBXBuildFile; fileRef = A8B35244157723BC004EB874 /* ybase64.c */; };
-		A8B35248157725E2004EB874 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B35247157725E2004EB874 /* libz.dylib */; };
 		A8B3553315772C1E004EB874 /* TrelloLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8B3553215772C1E004EB874 /* TrelloLoginViewController.xib */; };
+		A8B3553715773E10004EB874 /* ybase64.c in Sources */ = {isa = PBXBuildFile; fileRef = A8B35244157723BC004EB874 /* ybase64.c */; };
+		A8B3553815773E51004EB874 /* NSData+YBase64String.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3523815772238004EB874 /* NSData+YBase64String.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B3553915773E51004EB874 /* NSString+YBase64toData.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3523A15772238004EB874 /* NSString+YBase64toData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B3553A15773E51004EB874 /* NSDictionary+YHTTPURLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3522C15772205004EB874 /* NSDictionary+YHTTPURLDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B3553B15773E51004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3522E15772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B3553C15773E51004EB874 /* NSString+YHTTPURLString.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3523015772205004EB874 /* NSString+YHTTPURLString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B3553D15773E51004EB874 /* yoauthv1.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518115770ABD004EB874 /* yoauthv1.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B3553E15773E51004EB874 /* yoauthv1_internal.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518315770ABD004EB874 /* yoauthv1_internal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B3553F15773E51004EB874 /* NSError+YOAuthv2.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518615770ABD004EB874 /* NSError+YOAuthv2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B3554015773E51004EB874 /* yoauthv2.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518815770ABD004EB874 /* yoauthv2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B3554115773E51004EB874 /* yoauth_utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518C15770ABD004EB874 /* yoauth_utilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8B3554215773E51004EB874 /* NSMutableURLRequest+YOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B35226157721B4004EB874 /* NSMutableURLRequest+YOAuth.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A8F969F015769E08007D2E6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F969EF15769E08007D2E6A /* UIKit.framework */; };
 		A8F969F215769E08007D2E6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F969F115769E08007D2E6A /* Foundation.framework */; };
 		A8F969F415769E08007D2E6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F969F315769E08007D2E6A /* CoreGraphics.framework */; };
@@ -241,7 +240,6 @@
 		A8B352401577235F004EB874 /* ybase64-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ybase64-Prefix.pch"; sourceTree = "<group>"; };
 		A8B352421577235F004EB874 /* ybase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ybase64.h; sourceTree = "<group>"; };
 		A8B35244157723BC004EB874 /* ybase64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ybase64.c; sourceTree = "<group>"; };
-		A8B35247157725E2004EB874 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		A8B3553215772C1E004EB874 /* TrelloLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrelloLoginViewController.xib; sourceTree = "<group>"; };
 		A8F969EB15769E08007D2E6A /* ios-trello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-trello.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F969EF15769E08007D2E6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -336,7 +334,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8B35248157725E2004EB874 /* libz.dylib in Frameworks */,
 				A8F96B721576D723007D2E6A /* Security.framework in Frameworks */,
 				A8F96B701576D6F5007D2E6A /* SystemConfiguration.framework in Frameworks */,
 				A8F969F015769E08007D2E6A /* UIKit.framework in Frameworks */,
@@ -604,7 +601,6 @@
 		A8F969EE15769E08007D2E6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A8B35247157725E2004EB874 /* libz.dylib */,
 				A8F96B711576D723007D2E6A /* Security.framework */,
 				A8F96B6F1576D6F5007D2E6A /* SystemConfiguration.framework */,
 				A8F969EF15769E08007D2E6A /* UIKit.framework */,
@@ -1020,6 +1016,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8B3553815773E51004EB874 /* NSData+YBase64String.m in Sources */,
+				A8B3553915773E51004EB874 /* NSString+YBase64toData.m in Sources */,
+				A8B3553A15773E51004EB874 /* NSDictionary+YHTTPURLDictionary.m in Sources */,
+				A8B3553B15773E51004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m in Sources */,
+				A8B3553C15773E51004EB874 /* NSString+YHTTPURLString.m in Sources */,
+				A8B3553D15773E51004EB874 /* yoauthv1.m in Sources */,
+				A8B3553E15773E51004EB874 /* yoauthv1_internal.m in Sources */,
+				A8B3553F15773E51004EB874 /* NSError+YOAuthv2.m in Sources */,
+				A8B3554015773E51004EB874 /* yoauthv2.m in Sources */,
+				A8B3554115773E51004EB874 /* yoauth_utilities.m in Sources */,
+				A8B3554215773E51004EB874 /* NSMutableURLRequest+YOAuth.m in Sources */,
+				A8B3553715773E10004EB874 /* ybase64.c in Sources */,
 				A8F969FC15769E08007D2E6A /* main.m in Sources */,
 				A8F96A0015769E08007D2E6A /* VMAppDelegate.m in Sources */,
 				A8F96A5A1576B263007D2E6A /* VMTrelloApiClient.m in Sources */,
@@ -1052,18 +1060,6 @@
 				A8F96B551576B54B007D2E6A /* OAuthv1BaseLoginViewController.m in Sources */,
 				A8F96B5C1576B6EB007D2E6A /* Reachability.m in Sources */,
 				A8F96B601576B741007D2E6A /* DPTools.m in Sources */,
-				A8B351C815770ABD004EB874 /* yoauthv1.m in Sources */,
-				A8B351C915770ABD004EB874 /* yoauthv1_internal.m in Sources */,
-				A8B351CA15770ABD004EB874 /* NSError+YOAuthv2.m in Sources */,
-				A8B351CB15770ABD004EB874 /* yoauthv2.m in Sources */,
-				A8B351CC15770ABD004EB874 /* yoauth_utilities.m in Sources */,
-				A8B35229157721B4004EB874 /* NSMutableURLRequest+YOAuth.m in Sources */,
-				A8B3523315772205004EB874 /* NSDictionary+YHTTPURLDictionary.m in Sources */,
-				A8B3523415772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m in Sources */,
-				A8B3523515772205004EB874 /* NSString+YHTTPURLString.m in Sources */,
-				A8B3523D15772238004EB874 /* NSData+YBase64String.m in Sources */,
-				A8B3523E15772238004EB874 /* NSString+YBase64toData.m in Sources */,
-				A8B35246157724E3004EB874 /* ybase64.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
