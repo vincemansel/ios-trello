@@ -107,12 +107,16 @@ Double-Click then click + to set flags
 -all_load
 ```
 
-2. Under Targets > ios-trello > Build Phases > Target Dependencies,
+2. Under Targets > ios4trello > Build Phases > Target Dependencies,
 Click + and Choose items to add: 
  * (ytoolkit > ytoolkit)
 
+3. Under Targets > ios4trello > Build Settings > Search Paths > Header Search Paths, enter:
+```
+{BUILT_PRODUCTS_DIR}/usr/local/include
+```
 
-3. Under Targets > ios-trello > Build Phases > Compile Sources,
+4. Under Targets > ios4trello > Build Phases > Compile Sources,
 Double-click the following source files, and add the flag:
 ```
 -fno-objc-arc
@@ -143,6 +147,6 @@ Here's our [Trello Board](https://trello.com/board/ios-trello/4fc68e03d3e0f01665
 
 This library is mostly complete, but if you do find anything missing or not functioning as you would expect, please [let us know](https://trello.com/card/spot-a-bug-report-it/4fc68e03d3e0f0166532f6e9/1).
 
-And by all means, pitch in. What would like to add to the project? Feature requests, pull-requests, tests, docs, examples are all welcome.
+And by all means, pitch in. What would you like to add to the project? Feature requests, pull-requests, tests, docs, examples are all welcome.
 
 Peace!
