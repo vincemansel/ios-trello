@@ -50,7 +50,7 @@
          failure:(void (^)(NSError *error))failure;
 
 - (void)getBoards:(NSString *)boardID
-            field:(NSArray *)fields
+            field:(NSString *)fields
           success:(void (^)(id JSON))JSONSuccess_block
           failure:(void (^)(NSError *error))failure;
 
@@ -63,7 +63,7 @@
               failure:(void (^)(NSError *error))failure;
 
 - (void)getBoardCards:(NSString *)boardID
-               filter:(NSArray *)filters
+               filter:(NSString *)filter
          success:(void (^)(id JSON))JSONSuccess_block
          failure:(void (^)(NSError *error))failure;
 

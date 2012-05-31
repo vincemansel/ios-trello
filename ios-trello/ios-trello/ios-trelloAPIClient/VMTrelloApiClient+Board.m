@@ -21,11 +21,15 @@
 }
 
 - (void)getBoards:(NSString *)boardID
-            field:(NSArray *)fields
+            field:(NSString *)field
           success:(void (^)(id JSON))JSONSuccess_block
           failure:(void (^)(NSError *error))failure
 {
+    NSString *getBoards = @"boards/";
+    getBoards = [getBoards stringByAppendingString:boardID];
+    getBoards = [getBoards stringByAppendingFormat:@"/%@",field];
     
+    TRELLO_API_GET(getBoards);    
 }
 
 - (void)getBoardActions:(NSString *)boardID
@@ -47,7 +51,7 @@
 }
 
 - (void)getBoardCards:(NSString *)boardID
-               filter:(NSArray *)filters
+               filter:(NSString *)filter
               success:(void (^)(id JSON))JSONSuccess_block
               failure:(void (^)(NSError *error))failure
 {

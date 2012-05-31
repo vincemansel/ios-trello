@@ -11,7 +11,9 @@
 
 @implementation VMTrelloApiClient (Token)
 
-- (void)deleteToken:(NSString *)token success:(JSONSuccess_block_t)JSONSuccess_block failure:(void (^)(NSError *))failure
+- (void)deleteToken:(NSString *)token
+            success:(JSONSuccess_block_t)JSONSuccess_block
+            failure:(void (^)(NSError *))failure
 {
     NSString *deleteToken = @"token/";
     deleteToken = [deleteToken stringByAppendingString:self.accesstoken];
@@ -27,9 +29,9 @@
 }
 
 - (void)getTokens:(NSString *)token
-field:(NSArray *)fields
-success:(JSONSuccess_block_t)JSONSuccess_block
-failure:(void (^)(NSError *error))failure
+            field:(NSArray *)fields
+          success:(JSONSuccess_block_t)JSONSuccess_block
+          failure:(void (^)(NSError *error))failure
 {
     
 }
@@ -43,10 +45,10 @@ failure:(void (^)(NSError *error))failure
 }
 
 - (void)getTokens:(NSString *)token
-member:(NSString *)member
-field:(NSArray *)fields
-success:(JSONSuccess_block_t)JSONSuccess_block
-failure:(void (^)(NSError *error))failure
+           member:(NSString *)member
+            field:(NSArray *)fields
+          success:(JSONSuccess_block_t)JSONSuccess_block
+          failure:(void (^)(NSError *error))failure
 {
     
 }

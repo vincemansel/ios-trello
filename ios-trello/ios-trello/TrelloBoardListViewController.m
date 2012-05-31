@@ -88,6 +88,7 @@
     
     [[VMTrelloApiClient sharedSession] 
      getBoards:[self.boardIDs objectAtIndex:indexPath.row]
+     field:@"name"
      success:^(id JSON) {
          NSLog(@"Board:JSON = %@", JSON);
      } failure:^(NSError *error) {
