@@ -53,13 +53,13 @@ that is returned. This examples stores the names into an NSArray model called bo
 }
 ```
 
-Assuming you have those listed in a tableView, here is how to acccess one board and list the cards on that board.
+Assuming you have those listed in a tableView, here is how to access one board and list the cards on that board.
 
 
 ```
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"Board = %@", [self.messages objectAtIndex:indexPath.row]);
+    NSLog(@"Board = %@", [self.boardList objectAtIndex:indexPath.row]);
     
     [[VMTrelloApiClient sharedSession] 
      getBoards:[self.boardIDs objectAtIndex:indexPath.row]
@@ -81,6 +81,7 @@ Assuming you have those listed in a tableView, here is how to acccess one board 
 
 
 Here is how to get started.
+======
 
 ## Additional Sources Required:
 
@@ -106,7 +107,7 @@ Double-Click then click + to set flags
 
 2. Under Targets > ios-trello > Build Phases > Target Dependencies,
 Click + and Choose items to add: 
-* (ytoolkit > ytoolkit)
+ * (ytoolkit > ytoolkit)
 
 
 3. Under Targets > ios-trello > Build Phases > Compile Sources,
@@ -124,12 +125,6 @@ Under Targets > ios-trello > Build Phases > Link Binary with Libraries:
 * IOS 5.1
  * SystemConfiguration
  * Security
-* Workspace
- * libybase64.a
- * libybase64additions.a
- * libycocoaadditions.a from 'ycocoaadditions-iOS' target
- * libyoauth.a
- * libyoauthadditions.a
 
 ## Client Source Configuration
 
