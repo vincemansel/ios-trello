@@ -9,6 +9,8 @@ It is basically an API wrapper that makes it easy for your app to login and send
 
 Load up the included iPad project in your simulator, and take ios4trello for a spin.
 
+The Trello API Reference is [here](https://trello.com/docs/api/index.html).
+
 The demo is based on the Trello API, AFNetworking (for transport) and ytoolkit/NSMutableURLRequest (for basic OAuth). You can use any
 OAuth library you want, but ios-trello is closely tied to AFNetworking through a few Macros.
 
