@@ -100,12 +100,9 @@ Double-Click then click + to set flags
 ```
 
 2. Under Targets > ios-trello > Build Phases > Target Dependencies,
-Click + and Choose items to add: * (ytoolkit)
- * ybase64-iOS
- * ybase64additions-iOS
- * ycocoaadditions-iOS
- * yoauth-iOS
- * yoauthadditions-iOS
+Click + and Choose items to add: 
+* (ytoolkit > ytoolkit)
+
 
 3. Under Targets > ios-trello > Build Phases > Compile Sources,
 Double-click the following source files, and add the flag:
@@ -134,6 +131,9 @@ Under Targets > ios-trello > Build Phases > Link Binary with Libraries:
 1. Go to [Trello Docs](https://trello.com/docs/) and generate an Application Key
 
 2. Substitute your keys in the file TrelloClientCredentials.m
+
+3. (See Demo): In TrelloLoginViewController.m, globally substitute Your_App_Name for ios4Trello.
+(This will let your users know that your app is seeking authorization to access thier Trello account.)
 
 ## Keeping it real and live
 
