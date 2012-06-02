@@ -7,7 +7,7 @@ Trello is a free, collaborative task management web tool that can be used for an
 Check it out [here](http://www.trello.com). This project contains sources to enable you to build Trello into your native iOS projects.
 It is basically an API wrapper that makes it easy for your app to login and send GET, PUT, POST and DELETE HTTP signals to your available and authorized Trello boards.
 
-Load up the included iPad demo/test project in your simulator, and take ios4trello for a spin.
+Load up the included iPad demo/test project in your simulator, and take ios4trello for a spin. (See [Client Source Configuration](https://github.com/vincemansel/ios-trello/edit/master/README.md#client-source-configuration) below to obtain keys!).
 
 The Trello API Reference is [here](https://trello.com/docs/api/index.html).
 
