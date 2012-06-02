@@ -82,7 +82,7 @@ Assuming you have those listed in a tableView, here is how to access one board a
 ```
 
 
-Here is how to get going...
+Here's how to get going...
 ======
 
 ## Additional Sources Required:
@@ -155,6 +155,8 @@ Peace!
 
 ## Roadmap/Implementation Status
 
+The Trello API (Beta) is functional with on-going development and is fairly complete (as far as I know). This is the map/status for ios-trello.
+
 * 1.0 - *Basic* read-only API, create board, edit board description, create list, create card
 * 1.1 - support additional read-only methods (i.e. all GET methods)
 * 2.0 - support additional, create, update and delete
@@ -163,7 +165,7 @@ Peace!
   <tr><th>Method</th><th>Version</th></tr>
   
 <tr><th colspan="2">Actions</th></tr>
-<tr><td>GET /1/actions/[action_id]                      </td><td>1.1</td></tr>
+<tr><td>GET /1/actions/[action_id]                      </td><td>1.0 - IMPLEMENTED</td></tr>
 <tr><td>GET /1/actions/[action_id]/[field]              </td><td>1.1</td></tr>  
 <tr><td>GET /1/actions/[action_id]/board                </td><td>1.1</td></tr>  
 <tr><td>GET /1/actions/[action_id]/board/[field]        </td><td>1.1</td></tr>  
@@ -181,12 +183,12 @@ Peace!
 <tr><th colspan="2">Boards</th></tr>
 <tr><td>GET /1/boards/[board_id]                       </td><td>1.0 - IMPLEMENTED</td></tr>
 <tr><td>GET /1/boards/[board_id]/[field]               </td><td>1.0 - IMPLEMENTED</td></tr>
-<tr><td>GET /1/boards/[board_id]/actions               </td><td>1.1</td></tr>
-<tr><td>GET /1/boards/[board_id]/cards                 </td><td>1.1</td></tr>
+<tr><td>GET /1/boards/[board_id]/actions               </td><td>1.0 - IMPLEMENTED</td></tr>
+<tr><td>GET /1/boards/[board_id]/cards                 </td><td>1.0 - IMPLEMENTED</td></tr>
 <tr><td>GET /1/boards/[board_id]/cards/[filter]        </td><td>1.1</td></tr>
 <tr><td>GET /1/boards/[board_id]/cards/[idCard]        </td><td>1.1</td></tr>
 <tr><td>GET /1/boards/[board_id]/checklists            </td><td>1.1</td></tr>
-<tr><td>GET /1/boards/[board_id]/lists                 </td><td>1.1</td></tr>
+<tr><td>GET /1/boards/[board_id]/lists                 </td><td>1.0 - IMPLEMENTED</td></tr>
 <tr><td>GET /1/boards/[board_id]/lists/[filter]        </td><td>1.1</td></tr>
 <tr><td>GET /1/boards/[board_id]/members               </td><td>1.1</td></tr>
 <tr><td>GET /1/boards/[board_id]/members/[filter]      </td><td>1.1</td></tr>
