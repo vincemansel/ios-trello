@@ -64,7 +64,7 @@ Assuming you have those listed in a tableView, here is how to access one board a
     NSLog(@"Board = %@", [self.boardList objectAtIndex:indexPath.row]);
     
     [[VMTrelloApiClient sharedSession] 
-     getBoards:[self.boardIDs objectAtIndex:indexPath.row]
+     get1Boards:[self.boardIDs objectAtIndex:indexPath.row]
      success:^(id JSON) {
          NSLog(@"Board:JSON = %@", JSON);
      } failure:^(NSError *error) {
@@ -72,7 +72,7 @@ Assuming you have those listed in a tableView, here is how to access one board a
      }];
     
     [[VMTrelloApiClient sharedSession] 
-     getBoardCards:[self.boardIDs objectAtIndex:indexPath.row]
+     get1BoardsCards:[self.boardIDs objectAtIndex:indexPath.row]
      success:^(id JSON) {
          NSLog(@"BoardCards:JSON = %@", JSON);
      } failure:^(NSError *error) {
@@ -138,7 +138,7 @@ Under Targets > ios-trello > Build Phases > Link Binary with Libraries:
 
 1. Go to [Trello Docs](https://trello.com/docs/) and generate an Application Key
 
-2. Create the file  TrelloClientCredentials.m and substitute your keys.
+2. Edit/Create the file  TrelloClientCredentials.m and substitute your keys.
 
 3. (See Demo): In TrelloLoginViewController.m, globally substitute Your_App_Name for ios4Trello.
 (This will let your users know that your app is seeking authorization to access thier Trello account.)
@@ -332,6 +332,14 @@ The Trello API (Beta) is functional with on-going development and is fairly comp
 </table>
 
 ## Credits
+
+ios-trello and ios4trello were developed by Vince Mansel (http://github.com/vincemansel)
+
+Additional sources are attributed to the following projects.
+
 * AFNetworking
 * ytoolkit
-* Roadmap Table Layout (trello4j)
+* Roadmap Table Layout (thanks trello4j)
+
+Thanks, Vince
+
