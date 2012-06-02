@@ -27,6 +27,7 @@
 @implementation VMTrelloApiClient
 
 #define VMTrelloAPIBaseURLString @"https://api.trello.com/1/"
+//#define VMTrelloAPIBaseURLString @"https://127.0.0.1/1/"
 
 @synthesize tokensecret = _tokensecret;
 @synthesize accesstoken = _accesstoken;
@@ -49,6 +50,7 @@
     if (self) {
         // custom settings
         [self registerHTTPOperationClass:[AFJSONRequestOperation class]];
+        [self registerHTTPOperationClass:[AFHTTPRequestOperation class]];
     }
     
     return self;
@@ -210,6 +212,19 @@
 {
     return [NSDictionary dictionaryWithObjectsAndKeys:kTrelloConsumerKey, @"key", self.accesstoken, @"token", nil];;
 }
+
++ (NSDictionary *)attachRequestParams:(NSDictionary *)requestParams toKeyParams:(NSDictionary *)keyParams;
+{
+    NSMutableDictionary *params = [requestParams mutableCopy];
+    NSArray *keys = [keyParams allKeys];
+    
+    for (id key in keys) {
+        [params setObject:[keyParams objectForKey:key] forKey:key];
+    }
+    
+    return params;
+}
+
 
 #pragma mark - properties
 

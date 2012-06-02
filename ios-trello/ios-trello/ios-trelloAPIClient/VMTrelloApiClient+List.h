@@ -11,7 +11,14 @@
 /*
  list
  
+ IMPLEMENTED:
+ 
  GET /1/lists/[list_id]
+ POST /1/lists
+ POST /1/lists/[list_id]/cards
+ 
+ PLANNED:
+ 
  GET /1/lists/[list_id]/[field]
  GET /1/lists/[list_id]/actions
  GET /1/lists/[list_id]/board
@@ -21,11 +28,21 @@
  PUT /1/lists/[list_id]
  PUT /1/lists/[list_id]/closed
  PUT /1/lists/[list_id]/name
- POST /1/lists
- POST /1/lists/[list_id]/cards
  
- */
+*/
 
 @interface VMTrelloApiClient (List)
+
+//GET /1/lists/[list_id]
+- (void)get1Lists:(NSString *)list_id success:(void (^)(id JSON))JSONSuccess_block;
+- (void)get1Lists:(NSString *)list_id success:(void (^)(id JSON))JSONSuccess_block failure:(void (^)(NSError *error))failure;
+
+//POST /1/lists
+- (void)post1Lists:(NSString *)name idBoard:(NSString *)idBoard success:(void (^)(id JSON))JSONSuccess_block;
+- (void)post1Lists:(NSString *)name idBoard:(NSString *)idBoard success:(void (^)(id JSON))JSONSuccess_block failure:(void (^)(NSError *error))failure;
+
+//POST /1/lists/[list_id]/cards
+- (void)post1ListsCards:(NSString *)name list_id:(NSString *)list_id success:(void (^)(id JSON))JSONSuccess_block;
+- (void)post1ListsCards:(NSString *)name list_id:(NSString *)list_id success:(void (^)(id JSON))JSONSuccess_block failure:(void (^)(NSError *error))failure;
 
 @end

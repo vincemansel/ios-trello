@@ -1,19 +1,19 @@
 //
-//  DPTools.m
+//  VMTools.m
 //  ios-trello
 //
 //  Created by Vince Mansel on 3/24/12.
 //  Copyright (c) 2012 waveOcean Software. All rights reserved.
 //
 
-#import "DPTools.h"
+#import "VMTools.h"
 #import "Reachability.h"
 
 #define Network_Unavailable         @"Network Unavailable"
 #define iosTrello_requires_an_internet_connection_to_access_online_resources \
 @"ios-trello requires an internet connection to access online resources"
 
-@implementation DPTools
+@implementation VMTools
 
 + (NSString *)trimString:(NSString *)inputString
 {

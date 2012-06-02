@@ -11,10 +11,15 @@
 /*
  member
  
+ IMPLEMENTED:
+ 
+ GET /1/members/[member_id or username]/boards
+
+ PLANNED:
+ 
  GET /1/members/[member_id or username]
  GET /1/members/[member_id or username]/[field]
  GET /1/members/[member_id or username]/actions
- GET /1/members/[member_id or username]/boards                                  getMemberMyBoardsWithSuccess:
  GET /1/members/[member_id or username]/boards/[filter]
  GET /1/members/[member_id or username]/boardsInvited
  GET /1/members/[member_id or username]/boardsInvited/[field]
@@ -36,7 +41,7 @@
 
 @interface VMTrelloApiClient (Member)
 
-- (void)getMemberMyBoardsWithSuccess:(void (^)(id JSON))JSONSuccess_block
-                             failure:(void (^)(NSError *error))failure;
+- (void)getMemberMyBoardsWithSuccess:(void (^)(id JSON))JSONSuccess_block;
+- (void)getMemberMyBoardsWithSuccess:(void (^)(id JSON))JSONSuccess_block failure:(void (^)(NSError *))failure;
 
 @end

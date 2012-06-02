@@ -98,7 +98,6 @@
                                                          realm:nil
                                                       verifier:nil
 #warning -- replace ios4trello with your appName
-
                                                       callback:@"http://ios4trello/"];
     _step = 0;
     self.activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyleGray;
@@ -196,12 +195,12 @@
     [self.activityIndicator stopAnimating];
 }
 
-- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
-{
-    [self.activityIndicator stopAnimating];
-    
-    NSLog(@"Error = %@", error);
-}
+//- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
+//{
+//    [self.activityIndicator stopAnimating];
+//    
+//    NSLog(@"Error = %@", error);
+//}
 
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
     NSURL * url = request.URL;
@@ -209,8 +208,7 @@
     NSString * host = [s host];
     NSLog(@"%@ navType = %d",s, navigationType);
     
-#warning -- replace ios4trello with your appName
-    
+#warning -- replace ios4trello with your appName    
     if ([host isEqualToString:@"ios4trello"]) {
         NSDictionary * p = [s queryParameters];
         if (nil == [p objectForKey:@"denied"]) {

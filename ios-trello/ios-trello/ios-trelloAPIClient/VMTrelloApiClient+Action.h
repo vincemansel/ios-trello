@@ -12,6 +12,11 @@
  action
  
  GET /1/actions/[action_id]
+
+ IMPLEMENTED:
+ 
+ PLANNED:
+ 
  GET /1/actions/[action_id]/[field]
  GET /1/actions/[action_id]/board
  GET /1/actions/[action_id]/board/[field]
@@ -29,5 +34,8 @@
  */
 
 @interface VMTrelloApiClient (Action)
+
+- (void)get1Actions:(NSString *)action_id success:(void (^)(id JSON))JSONSuccess_block;
+- (void)get1Actions:(NSString *)action_id success:(void (^)(id JSON))JSONSuccess_block failure:(void (^)(NSError *error))failure;
 
 @end

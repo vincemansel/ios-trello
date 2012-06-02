@@ -11,6 +11,10 @@
 /*
  checklist
  
+ IMPLEMENTED:
+ 
+ PLANNED:
+
  GET /1/checklists/[checklist_id]
  GET /1/checklists/[checklist_id]/[field]
  GET /1/checklists/[checklist_id]/board

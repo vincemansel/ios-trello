@@ -14,14 +14,19 @@
 
 @implementation TrelloDataEntryViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
+@synthesize delegate = _delegate;
+
+@synthesize textEntryLabel;
+@synthesize textField;
+
+- (IBAction)okButtonPressed:(id)sender {
+    
+    if ([textField.text length] > 0) {
+        NSString *text = textField.text;
+        [self.delegate didEnterText:text];
     }
-    return self;
 }
+
 
 - (void)viewDidLoad
 {
@@ -31,13 +36,15 @@
 
 - (void)viewDidUnload
 {
+    [self setTextEntryLabel:nil];
+    [self setTextField:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return YES;
 }
 
 @end

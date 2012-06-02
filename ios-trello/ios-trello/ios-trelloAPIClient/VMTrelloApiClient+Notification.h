@@ -8,9 +8,12 @@
 
 #import "VMTrelloApiClient.h"
 
-/*
- 
+/* 
  notification
+
+ IMPLEMENTED:
+ 
+ PLANNED:
  
  GET /1/notifications/[notification_id]
  GET /1/notifications/[notification_id]/[field]

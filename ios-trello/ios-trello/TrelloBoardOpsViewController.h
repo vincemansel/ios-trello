@@ -1,5 +1,5 @@
 //
-//  DPLogisticsConnectTVC.h
+//  TrelloBoardOpsViewController.h
 //  ios-trello
 //
 //  Created by Vince Mansel on 4/19/12.
@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TrelloBoardListViewController.h"
+#import "TrelloDataEntryViewController.h"
 
-@interface DPLogisticsConnectTVC : UITableViewController
+@interface TrelloBoardOpsViewController : UITableViewController <TrelloBoardListViewControllerDelegate, TrelloDataEntryViewControllerDelegate>
 
 @end

@@ -11,11 +11,17 @@
 @implementation VMTrelloApiClient (Member)
 
 - (void)getMemberMyBoardsWithSuccess:(void (^)(id JSON))JSONSuccess_block
-                             failure:(void (^)(NSError *error))failure
 {
-    NSString *getMemberMyBoards = @"members/my/boards";
+    NSString *request = @"members/my/boards";
     
-    TRELLO_API_GET(getMemberMyBoards);
+    TRELLO_API_GET_HANDLE_FAIL(request);
+}
+
+- (void)getMemberMyBoardsWithSuccess:(void (^)(id JSON))JSONSuccess_block failure:(void (^)(NSError *))failure
+{
+    NSString *request = @"members/my/boards";
+    
+    TRELLO_API_GET(request);
 }
 
 

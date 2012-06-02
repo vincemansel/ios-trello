@@ -10,15 +10,18 @@
 
 /*
  type
+
+ IMPLEMENTED:
  
- GET /1/types/[id]
+ PLANNED:
+  
+ -GET /1/types/[id]
  
  */
 
 @interface VMTrelloApiClient (Type)
 
-- (void)getTypes:(NSString *)typeID
-          success:(JSONSuccess_block_t)JSONSuccess_block
-          failure:(void (^)(NSError *error))failure;
+- (void)getTypes:(NSString *)typeID success:(JSONSuccess_block_t)JSONSuccess_block;
+- (void)getTypes:(NSString *)typeID success:(JSONSuccess_block_t)JSONSuccess_block failure:(void (^)(NSError *error))failure;
 
 @end

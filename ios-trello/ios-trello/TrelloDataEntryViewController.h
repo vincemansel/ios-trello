@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol TrelloDataEntryViewControllerDelegate <NSObject>
+
+- (void)didEnterText:(NSString *)text;
+
+@end
+
 @interface TrelloDataEntryViewController : UIViewController
+
+@property (nonatomic, assign) id<TrelloDataEntryViewControllerDelegate>delegate;
+
+@property (weak, nonatomic) IBOutlet UILabel *textEntryLabel;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
+- (IBAction)okButtonPressed:(id)sender;
 
 @end

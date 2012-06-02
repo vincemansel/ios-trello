@@ -9,6 +9,10 @@
 #import "VMTrelloApiClient.h"
 
 /* organization
+
+ IMPLEMENTED:
+ 
+ PLANNED:
  
  GET /1/organizations/[org_id or name]
  GET /1/organizations/[org_id or name]/[field]
