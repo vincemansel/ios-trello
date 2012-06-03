@@ -1,4 +1,4 @@
-ios-trello (v1.0)
+ios-trello (v0.1)
 ==========
 
 An iOS (Objective-C) API Wrapper for Trello
