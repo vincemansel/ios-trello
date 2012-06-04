@@ -37,7 +37,7 @@ that is returned. This examples stores the names into an NSArray model called bo
     //NSLog(@"Name: %@ %@", [JSON valueForKeyPath:@"name"], [JSON valueForKeyPath:@"memberships"]);
     //NSLog(@"JSON: %@", JSON);
     if (YIS_INSTANCE_OF(JSON, NSArray)) {
-        [self.messages removeAllObjects];
+        [self.boardList removeAllObjects];
         for (id item in JSON) {
             if (YIS_INSTANCE_OF(item, NSDictionary)) {
                 NSString * boardName = [item objectForKey:@"name"];
