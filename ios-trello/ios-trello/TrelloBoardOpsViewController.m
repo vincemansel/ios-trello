@@ -133,11 +133,21 @@
                 if (listID) [self didPressTrelloOperation:@"popoverWithTrelloCreateCard" ];
                 else needListAlert = YES;
             }
+            else if ([cell.textLabel.text rangeOfString:@"PUT /1/lists/[list_id]/name"].location != NSNotFound) {
+                NSString *listID = [[NSUserDefaults standardUserDefaults] objectForKey:@"trelloList"];
+                if (listID) [self didPressTrelloOperation:@"popoverWithTrelloListsName" ];
+                else needListAlert = YES;
+            }
             else if (self.boardID) [self didPressTrelloOperation:@"popoverWithTrelloAddList"]; else needAlert = YES;
             break;
             
         case 5:
-            if (self.boardID) [self didPressTrelloOperation:@"pushWithTrelloSelectLists"]; else needAlert = YES;
+            if ([cell.textLabel.text rangeOfString:@"DELETE /1/cards/[card_id]"].location != NSNotFound) {
+                NSString *cardID = [[NSUserDefaults standardUserDefaults] objectForKey:@"trelloCard"];
+                if (cardID) [self didPressTrelloOperation:@"deleteCards" ];
+                else needCardAlert = YES;
+            }
+            else if (self.boardID) [self didPressTrelloOperation:@"pushWithTrelloSelectLists"]; else needAlert = YES;
             break;
             
         case 6:
@@ -146,6 +156,10 @@
             
         case 7:
             if (self.boardID) [self didPressTrelloOperation:@"pushWithTrelloSelectActions"]; else needAlert = YES;
+            break;
+            
+        case 8:
+            if (self.boardID) [self didPressTrelloOperation:@"popoverWithTrelloBoardsName"]; else needAlert = YES;
             break;
             
         default:
@@ -204,6 +218,9 @@
             else if ([trelloOperation isEqualToString:@"getLists"]) {
                 [self getListsOperation];
             }
+            else if ([trelloOperation isEqualToString:@"deleteCards"]) {
+                [self deleteCardsOperation];
+            }
             else {
                 [self performSegueWithIdentifier:trelloOperation sender:self];
             }
@@ -230,7 +247,7 @@
          }];
     }
     else {
-        [VMTools showAlert:@"Trello Actions" withMessage:@"Go to Board, Create/Select a Board and an Action"];
+        [VMTools showAlert:@"Trello Action" withMessage:@"Go to Board, Create/Select a Board and an Action"];
     }
 }
 
@@ -251,7 +268,7 @@
          }];
     }
     else {
-        [VMTools showAlert:@"Trello Actions" withMessage:@"Go to Board, Create/Select a Board and a Card"];
+        [VMTools showAlert:@"Trello Card" withMessage:@"Go to Board, Create/Select a Board and a Card"];
     }
 }
 
@@ -272,7 +289,7 @@
          }];
     }
     else {
-        [VMTools showAlert:@"Trello Actions" withMessage:@"Go to Board, Create/Select a Board and a Card"];
+        [VMTools showAlert:@"Trello Card" withMessage:@"Go to Board, Create/Select a Board and a Card"];
     }
 }
 
@@ -293,7 +310,28 @@
          }];
     }
     else {
-        [VMTools showAlert:@"Trello Actions" withMessage:@"Go to Board, Create/Select a Board and a List"];
+        [VMTools showAlert:@"Trello List" withMessage:@"Go to Board, Create/Select a Board and a List"];
+    }
+}
+
+- (void)deleteCardsOperation
+{
+    NSString *cardID = [[NSUserDefaults standardUserDefaults] objectForKey:@"trelloCard"];
+    
+    if (cardID) {
+        [[VMTrelloApiClient sharedSession]
+         delete1Cards:cardID
+         success:^(id JSON) {
+             NSLog(@"delete1Cards: JSON = %@", JSON);
+             
+             //NSString *response = [JSON valueForKey:@"name"];
+             
+             UITableViewCell *cell = [self tableView:self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:5 inSection:0]];
+             cell.detailTextLabel.text = [@"Last deleted: " stringByAppendingString:cardID];
+         }];
+    }
+    else {
+        [VMTools showAlert:@"Trello Cards" withMessage:@"Make sure a card is selected..."];
     }
 }
 
@@ -311,8 +349,10 @@
         [segue.identifier isEqualToString:@"popoverWithTrelloEditCardDescription"] ||
         [segue.identifier isEqualToString:@"popoverWithTrelloCreateCard"] ||
         [segue.identifier isEqualToString:@"popoverWithTrelloCreateList"] ||
-        [segue.identifier isEqualToString:@"popoverWithTrelloAddCard"] ) {
-        
+        [segue.identifier isEqualToString:@"popoverWithTrelloAddCard"] ||
+        [segue.identifier isEqualToString:@"popoverWithTrelloListsName"] ||
+        [segue.identifier isEqualToString:@"popoverWithTrelloBoardsName"] ) {
+         
         if ([segue isKindOfClass:[UIStoryboardPopoverSegue class]]) {
             UIStoryboardPopoverSegue *popoverSegue = (UIStoryboardPopoverSegue *)segue;
             self.aPopoverController = popoverSegue.popoverController;
@@ -320,14 +360,16 @@
         }
         
         NSString *text;
-        if ([segue.identifier isEqualToString:@"popoverWithTrelloCreate"]) {
+        if ([segue.identifier isEqualToString:@"popoverWithTrelloCreate"] ||
+            [segue.identifier isEqualToString:@"popoverWithTrelloBoardsName"]) {
             text = @"Enter Board Name";
         }
         else if ([segue.identifier isEqualToString:@"popoverWithTrelloEditDescription"]) {
             text = @"Enter Description";
         }
         else if ([segue.identifier isEqualToString:@"popoverWithTrelloAddList"] ||
-                 [segue.identifier isEqualToString:@"popoverWithTrelloCreateList"]) {
+                 [segue.identifier isEqualToString:@"popoverWithTrelloCreateList"] ||
+                 [segue.identifier isEqualToString:@"popoverWithTrelloListsName"]) {
             text = @"Enter List Name";
         }
         else if ([segue.identifier isEqualToString:@"popoverWithTrelloEditCardDescription"]) {
@@ -517,7 +559,40 @@
              cell.detailTextLabel.text = [@"Last Added: " stringByAppendingString:response];
          }];
     }
-
+    else if ([self.operation isEqualToString:@"popoverWithTrelloListsName"]) {
+        
+        NSString *list_id = [[NSUserDefaults standardUserDefaults] objectForKey:@"trelloList"];
+        
+        [[VMTrelloApiClient sharedSession]
+         put1ListsName:text
+         list_id:list_id
+         success:^(id JSON) {
+             NSLog(@"put1ListsName: JSON = %@", JSON);
+             
+             NSString *response = [JSON valueForKey:@"name"];
+             [[NSUserDefaults standardUserDefaults] setObject:[JSON valueForKey:@"id"] forKey:@"trelloList"];
+             
+             UITableViewCell *cell = [self tableView:self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:4 inSection:0]];
+             cell.detailTextLabel.text = [@"Last Rename: " stringByAppendingString:response];
+         }];
+    }
+    else if ([self.operation isEqualToString:@"popoverWithTrelloBoardsName"]) {
+        
+        NSString *board_id = [[NSUserDefaults standardUserDefaults] objectForKey:@"trelloBoard"];
+        
+        [[VMTrelloApiClient sharedSession]
+         put1BoardsName:text
+         board_id:board_id
+         success:^(id JSON) {
+             NSLog(@"put1BoardsName: JSON = %@", JSON);
+             
+             NSString *response = [JSON valueForKey:@"name"];
+             [[NSUserDefaults standardUserDefaults] setObject:[JSON valueForKey:@"id"] forKey:@"trelloBoard"];
+             
+             UITableViewCell *cell = [self tableView:self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:8 inSection:0]];
+             cell.detailTextLabel.text = [@"Last Rename: " stringByAppendingString:response];
+         }];
+    }
 }
 
 #pragma mark - Table view data source

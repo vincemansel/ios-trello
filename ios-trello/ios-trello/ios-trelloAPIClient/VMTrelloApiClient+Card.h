@@ -17,6 +17,8 @@
  GET /1/cards/[card_id]/list
  PUT /1/cards/[card_id]/desc
  POST /1/cards
+ 
+ DELETE /1/cards/[card_id]
 
  PLANNED:
 
@@ -67,5 +69,9 @@
 //POST /1/cards
 - (void)post1Cards:(NSString *)name idList:(NSString *)idList success:(void (^)(id JSON))JSONSuccess_block;
 - (void)post1Cards:(NSString *)name idList:(NSString *)idList success:(void (^)(id JSON))JSONSuccess_block failure:(void (^)(NSError *error))failure;
+
+//DELETE /1/cards/[card_id]
+- (void)delete1Cards:(NSString *)card_id success:(void (^)(id JSON))JSONSuccess_block;
+- (void)delete1Cards:(NSString *)card_id success:(void (^)(id JSON))JSONSuccess_block failure:(void (^)(NSError *error))failure;
 
 @end

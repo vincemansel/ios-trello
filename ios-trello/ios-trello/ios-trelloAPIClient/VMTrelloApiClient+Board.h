@@ -22,6 +22,8 @@
  POST /1/boards
  POST /1/boards/[board_id]/lists
  
+ PUT /1/boards/[board_id]/name
+ 
  PLANNED:
  
  -GET /1/boards/[board_id]/[field]
@@ -91,5 +93,9 @@
 //?POST /1/boards/[board_id]/lists
 - (void)post1BoardsLists:(NSString *)board_id list:(NSString *)list success:(void (^)(id JSON))JSONSuccess_block;
 - (void)post1BoardsLists:(NSString *)board_id list:(NSString *)list success:(void (^)(id JSON))JSONSuccess_block failure:(void (^)(NSError *error))failure;
+
+//PUT /1/board/[board_id]/name
+- (void)put1BoardsName:(NSString *)name board_id:(NSString *)board_id success:(void (^)(id JSON))JSONSuccess_block;
+- (void)put1BoardsName:(NSString *)name board_id:(NSString *)board_id success:(void (^)(id JSON))JSONSuccess_block failure:(void (^)(NSError *error))failure;
 
 @end

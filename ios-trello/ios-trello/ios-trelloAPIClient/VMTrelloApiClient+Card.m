@@ -90,5 +90,22 @@
     TRELLO_API_POST_HANDLE_FAIL(request, params);                
 }
 
+//DELETE /1/cards/[card_id]
+- (void)delete1Cards:(NSString *)card_id success:(void (^)(id JSON))JSONSuccess_block;
+{
+    NSString *request = @"cards/";
+    request = [request stringByAppendingString:card_id];
+    
+    TRELLO_API_DELETE_HANDLE_FAIL(request);    
+}
+
+- (void)delete1Cards:(NSString *)card_id success:(void (^)(id JSON))JSONSuccess_block failure:(void (^)(NSError *error))failure;
+{
+    NSString *request = @"cards/";
+    request = [request stringByAppendingString:card_id];
+    
+    TRELLO_API_DELETE(request);        
+}
+
 
 @end

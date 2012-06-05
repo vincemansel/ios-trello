@@ -247,5 +247,28 @@
     TRELLO_API_POST(request, params);        
 }
 
+//PUT /1/boards/[board_id]/name
+- (void)put1BoardsName:(NSString *)name board_id:(NSString *)board_id success:(void (^)(id JSON))JSONSuccess_block;
+{
+    NSString *request = @"boards/";
+    request = [request stringByAppendingString:board_id];
+    
+    NSDictionary *requestParams = [NSDictionary dictionaryWithObjectsAndKeys:name, @"name", nil];
+    NSDictionary *params = [VMTrelloApiClient attachRequestParams:requestParams toKeyParams:TRELLO_API_PARAMETERS];
+    
+    TRELLO_API_PUT_HANDLE_FAIL(request, params);
+}
+
+- (void)put1BoardsName:(NSString *)name board_id:(NSString *)board_id success:(void (^)(id JSON))JSONSuccess_block failure:(void (^)(NSError *error))failure;
+{
+    NSString *request = @"boards/";
+    request = [request stringByAppendingString:board_id];
+    
+    NSDictionary *requestParams = [NSDictionary dictionaryWithObjectsAndKeys:name, @"name", nil];
+    NSDictionary *params = [VMTrelloApiClient attachRequestParams:requestParams toKeyParams:TRELLO_API_PARAMETERS];
+    
+    TRELLO_API_PUT(request, params);    
+}
+
 
 @end

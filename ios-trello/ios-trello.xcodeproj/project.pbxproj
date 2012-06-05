@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10C4A02157D7E1C00DBB7D0 /* BENCHMARK in Resources */ = {isa = PBXBuildFile; fileRef = A10C49B8157D7E1B00DBB7D0 /* BENCHMARK */; };
+		A10C4A03157D7E1C00DBB7D0 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = A10C49B9157D7E1B00DBB7D0 /* COPYING */; };
+		A10C4A04157D7E1C00DBB7D0 /* COPYING.LESSER in Resources */ = {isa = PBXBuildFile; fileRef = A10C49BA157D7E1B00DBB7D0 /* COPYING.LESSER */; };
+		A10C4A05157D7E1C00DBB7D0 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = A10C49C0157D7E1B00DBB7D0 /* README.markdown */; };
+		A10C4A06157D7E1C00DBB7D0 /* ybase64.c in Sources */ = {isa = PBXBuildFile; fileRef = A10C49C4157D7E1B00DBB7D0 /* ybase64.c */; };
+		A10C4A07157D7E1C00DBB7D0 /* NSData+YBase64String.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C49C9157D7E1B00DBB7D0 /* NSData+YBase64String.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A10C4A08157D7E1C00DBB7D0 /* NSString+YBase64toData.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C49CB157D7E1B00DBB7D0 /* NSString+YBase64toData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A10C4A09157D7E1C00DBB7D0 /* NSDictionary+YHTTPURLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C49D1157D7E1B00DBB7D0 /* NSDictionary+YHTTPURLDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A10C4A0A157D7E1C00DBB7D0 /* NSMutableDictionary+YDuplicatableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C49D3157D7E1B00DBB7D0 /* NSMutableDictionary+YDuplicatableDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A10C4A0B157D7E1C00DBB7D0 /* NSString+YHTTPURLString.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C49D5157D7E1B00DBB7D0 /* NSString+YHTTPURLString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A10C4A0C157D7E1C00DBB7D0 /* yoauthv1.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C49DE157D7E1B00DBB7D0 /* yoauthv1.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A10C4A0D157D7E1C00DBB7D0 /* yoauthv1_internal.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C49E0157D7E1B00DBB7D0 /* yoauthv1_internal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A10C4A0E157D7E1C00DBB7D0 /* NSError+YOAuthv2.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C49E3157D7E1B00DBB7D0 /* NSError+YOAuthv2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A10C4A0F157D7E1C00DBB7D0 /* yoauthv2.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C49E5157D7E1B00DBB7D0 /* yoauthv2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A10C4A10157D7E1C00DBB7D0 /* yoauth_utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C49E9157D7E1B00DBB7D0 /* yoauth_utilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A10C4A11157D7E1C00DBB7D0 /* NSMutableURLRequest+YOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C49ED157D7E1B00DBB7D0 /* NSMutableURLRequest+YOAuth.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A10C4A12157D7E1C00DBB7D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A10C49F1157D7E1B00DBB7D0 /* InfoPlist.strings */; };
+		A10C4A13157D7E1C00DBB7D0 /* ytoolkit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A10C49F3157D7E1B00DBB7D0 /* ytoolkit-Info.plist */; };
+		A10C4A14157D7E1C00DBB7D0 /* ErrorLocalizedString.strings in Resources */ = {isa = PBXBuildFile; fileRef = A10C49F9157D7E1B00DBB7D0 /* ErrorLocalizedString.strings */; };
+		A10C4A15157D7E1C00DBB7D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A10C49FB157D7E1B00DBB7D0 /* InfoPlist.strings */; };
+		A10C4A16157D7E1C00DBB7D0 /* ytoolkitbundle-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A10C49FD157D7E1B00DBB7D0 /* ytoolkitbundle-Info.plist */; };
 		A8137BB515774AAC008674C8 /* VMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8137BB415774AAC008674C8 /* VMTabBarController.m */; };
 		A8137BB715774DD5008674C8 /* I4T.png in Resources */ = {isa = PBXBuildFile; fileRef = A8137BB615774DD5008674C8 /* I4T.png */; };
 		A8137BB915774E23008674C8 /* I4Tx2.png in Resources */ = {isa = PBXBuildFile; fileRef = A8137BB815774E23008674C8 /* I4Tx2.png */; };
@@ -23,29 +44,7 @@
 		A89A6B0915780C4C00AE8ADC /* VMTrelloApiClient+Type.m in Sources */ = {isa = PBXBuildFile; fileRef = A89A6AFC15780C4C00AE8ADC /* VMTrelloApiClient+Type.m */; };
 		A89A6B0A15780C4C00AE8ADC /* VMTrelloApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A89A6AFE15780C4C00AE8ADC /* VMTrelloApiClient.m */; };
 		A89A6B1E15783AE000AE8ADC /* TrelloDataEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A89A6B1D15783AE000AE8ADC /* TrelloDataEntryViewController.m */; };
-		A8B351B115770ABD004EB874 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A8B3514115770ABD004EB874 /* .gitignore */; };
-		A8B351B215770ABD004EB874 /* BENCHMARK in Resources */ = {isa = PBXBuildFile; fileRef = A8B3514215770ABD004EB874 /* BENCHMARK */; };
-		A8B351B315770ABD004EB874 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = A8B3514315770ABD004EB874 /* COPYING */; };
-		A8B351B415770ABD004EB874 /* COPYING.LESSER in Resources */ = {isa = PBXBuildFile; fileRef = A8B3514415770ABD004EB874 /* COPYING.LESSER */; };
-		A8B351B615770ABD004EB874 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = A8B3514D15770ABD004EB874 /* README.markdown */; };
-		A8B351D415770ABD004EB874 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8B351A015770ABD004EB874 /* InfoPlist.strings */; };
-		A8B351D515770ABD004EB874 /* ytoolkit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8B351A215770ABD004EB874 /* ytoolkit-Info.plist */; };
-		A8B351D615770ABD004EB874 /* ErrorLocalizedString.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8B351A815770ABD004EB874 /* ErrorLocalizedString.strings */; };
-		A8B351D715770ABD004EB874 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8B351AA15770ABD004EB874 /* InfoPlist.strings */; };
-		A8B351D815770ABD004EB874 /* ytoolkitbundle-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8B351AC15770ABD004EB874 /* ytoolkitbundle-Info.plist */; };
 		A8B3553315772C1E004EB874 /* TrelloLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8B3553215772C1E004EB874 /* TrelloLoginViewController.xib */; };
-		A8B3553715773E10004EB874 /* ybase64.c in Sources */ = {isa = PBXBuildFile; fileRef = A8B35244157723BC004EB874 /* ybase64.c */; };
-		A8B3553815773E51004EB874 /* NSData+YBase64String.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3523815772238004EB874 /* NSData+YBase64String.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B3553915773E51004EB874 /* NSString+YBase64toData.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3523A15772238004EB874 /* NSString+YBase64toData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B3553A15773E51004EB874 /* NSDictionary+YHTTPURLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3522C15772205004EB874 /* NSDictionary+YHTTPURLDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B3553B15773E51004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3522E15772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B3553C15773E51004EB874 /* NSString+YHTTPURLString.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3523015772205004EB874 /* NSString+YHTTPURLString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B3553D15773E51004EB874 /* yoauthv1.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518115770ABD004EB874 /* yoauthv1.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B3553E15773E51004EB874 /* yoauthv1_internal.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518315770ABD004EB874 /* yoauthv1_internal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B3553F15773E51004EB874 /* NSError+YOAuthv2.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518615770ABD004EB874 /* NSError+YOAuthv2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B3554015773E51004EB874 /* yoauthv2.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518815770ABD004EB874 /* yoauthv2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B3554115773E51004EB874 /* yoauth_utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3518C15770ABD004EB874 /* yoauth_utilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8B3554215773E51004EB874 /* NSMutableURLRequest+YOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B35226157721B4004EB874 /* NSMutableURLRequest+YOAuth.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A8F969F015769E08007D2E6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F969EF15769E08007D2E6A /* UIKit.framework */; };
 		A8F969F215769E08007D2E6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F969F115769E08007D2E6A /* Foundation.framework */; };
 		A8F969F415769E08007D2E6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F969F315769E08007D2E6A /* CoreGraphics.framework */; };
@@ -86,100 +85,100 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A8B351E615770ABE004EB874 /* PBXContainerItemProxy */ = {
+		A10C4A24157D7E1C00DBB7D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			containerPortal = A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9A09913B147B9D6C005FBF4B;
 			remoteInfo = "ybase64-iOS";
 		};
-		A8B351E815770ABE004EB874 /* PBXContainerItemProxy */ = {
+		A10C4A26157D7E1C00DBB7D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			containerPortal = A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9A0991DB147BA274005FBF4B;
 			remoteInfo = "ybase64additions-iOS";
 		};
-		A8B351EA15770ABE004EB874 /* PBXContainerItemProxy */ = {
+		A10C4A28157D7E1C00DBB7D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			containerPortal = A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9A0991A4147BA059005FBF4B;
 			remoteInfo = "ycocoaadditions-iOS";
 		};
-		A8B351EC15770ABE004EB874 /* PBXContainerItemProxy */ = {
+		A10C4A2A157D7E1C00DBB7D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			containerPortal = A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9A099231147BA3F6005FBF4B;
 			remoteInfo = "yoauth-iOS";
 		};
-		A8B351EE15770ABE004EB874 /* PBXContainerItemProxy */ = {
+		A10C4A2C157D7E1C00DBB7D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			containerPortal = A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9AC0C4E4147E9B1C008E5AD5;
 			remoteInfo = "yoauthadditions-iOS";
 		};
-		A8B351F015770ABE004EB874 /* PBXContainerItemProxy */ = {
+		A10C4A2E157D7E1C00DBB7D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			containerPortal = A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9A09914B147B9D6C005FBF4B;
 			remoteInfo = ybase64Tests;
 		};
-		A8B351F215770ABE004EB874 /* PBXContainerItemProxy */ = {
+		A10C4A30157D7E1C00DBB7D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			containerPortal = A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9A0991B1147BA059005FBF4B;
 			remoteInfo = ycocoaadditionsTests;
 		};
-		A8B351F415770ABE004EB874 /* PBXContainerItemProxy */ = {
+		A10C4A32157D7E1C00DBB7D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			containerPortal = A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9A0991E8147BA274005FBF4B;
 			remoteInfo = ybase64additionsTests;
 		};
-		A8B351F615770ABE004EB874 /* PBXContainerItemProxy */ = {
+		A10C4A34157D7E1C00DBB7D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			containerPortal = A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9A09923E147BA3F6005FBF4B;
 			remoteInfo = yoauthTests;
 		};
-		A8B351F815770ABE004EB874 /* PBXContainerItemProxy */ = {
+		A10C4A36157D7E1C00DBB7D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			containerPortal = A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9AC17AEC147BB3FC00499A4F;
 			remoteInfo = ytoolkit;
 		};
-		A8B351FA15770ABE004EB874 /* PBXContainerItemProxy */ = {
+		A10C4A38157D7E1C00DBB7D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			containerPortal = A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9AC0C4F1147E9B1C008E5AD5;
 			remoteInfo = yoauthadditionsTests;
 		};
-		A8B351FC15770ABE004EB874 /* PBXContainerItemProxy */ = {
+		A10C4A3A157D7E1C00DBB7D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			containerPortal = A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9AC0FCD21481318000E020AF;
 			remoteInfo = ytoolkitbundle;
 		};
-		A8B351FE15770ABE004EB874 /* PBXContainerItemProxy */ = {
+		A10C4A3C157D7E1C00DBB7D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			containerPortal = A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9AED768D1498FECE001074E5;
 			remoteInfo = "ycocoaadditions-MacOSX";
 		};
-		A8B35249157727C7004EB874 /* PBXContainerItemProxy */ = {
+		A10C4A3E157D7E2700DBB7D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+			containerPortal = A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 9AC17AEB147BB3FC00499A4F;
 			remoteInfo = ytoolkit;
@@ -194,6 +193,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A10C49B8157D7E1B00DBB7D0 /* BENCHMARK */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BENCHMARK; sourceTree = "<group>"; };
+		A10C49B9157D7E1B00DBB7D0 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		A10C49BA157D7E1B00DBB7D0 /* COPYING.LESSER */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.LESSER; sourceTree = "<group>"; };
+		A10C49BD157D7E1B00DBB7D0 /* ydefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ydefines.h; sourceTree = "<group>"; };
+		A10C49BE157D7E1B00DBB7D0 /* ymacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ymacros.h; sourceTree = "<group>"; };
+		A10C49BF157D7E1B00DBB7D0 /* ytiming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ytiming.h; sourceTree = "<group>"; };
+		A10C49C0157D7E1B00DBB7D0 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		A10C49C3157D7E1B00DBB7D0 /* ybase64-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ybase64-Prefix.pch"; sourceTree = "<group>"; };
+		A10C49C4157D7E1B00DBB7D0 /* ybase64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ybase64.c; sourceTree = "<group>"; };
+		A10C49C5157D7E1B00DBB7D0 /* ybase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ybase64.h; sourceTree = "<group>"; };
+		A10C49C8157D7E1B00DBB7D0 /* NSData+YBase64String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YBase64String.h"; sourceTree = "<group>"; };
+		A10C49C9157D7E1B00DBB7D0 /* NSData+YBase64String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YBase64String.m"; sourceTree = "<group>"; };
+		A10C49CA157D7E1B00DBB7D0 /* NSString+YBase64toData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YBase64toData.h"; sourceTree = "<group>"; };
+		A10C49CB157D7E1B00DBB7D0 /* NSString+YBase64toData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YBase64toData.m"; sourceTree = "<group>"; };
+		A10C49CC157D7E1B00DBB7D0 /* ybase64additions-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ybase64additions-Prefix.pch"; sourceTree = "<group>"; };
+		A10C49CD157D7E1B00DBB7D0 /* ybase64additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ybase64additions.h; sourceTree = "<group>"; };
+		A10C49D0157D7E1B00DBB7D0 /* NSDictionary+YHTTPURLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YHTTPURLDictionary.h"; sourceTree = "<group>"; };
+		A10C49D1157D7E1B00DBB7D0 /* NSDictionary+YHTTPURLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YHTTPURLDictionary.m"; sourceTree = "<group>"; };
+		A10C49D2157D7E1B00DBB7D0 /* NSMutableDictionary+YDuplicatableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+YDuplicatableDictionary.h"; sourceTree = "<group>"; };
+		A10C49D3157D7E1B00DBB7D0 /* NSMutableDictionary+YDuplicatableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+YDuplicatableDictionary.m"; sourceTree = "<group>"; };
+		A10C49D4157D7E1B00DBB7D0 /* NSString+YHTTPURLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YHTTPURLString.h"; sourceTree = "<group>"; };
+		A10C49D5157D7E1B00DBB7D0 /* NSString+YHTTPURLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YHTTPURLString.m"; sourceTree = "<group>"; };
+		A10C49D6157D7E1B00DBB7D0 /* ycocoaadditions-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ycocoaadditions-Prefix.pch"; sourceTree = "<group>"; };
+		A10C49D7157D7E1B00DBB7D0 /* ycocoaadditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ycocoaadditions.h; sourceTree = "<group>"; };
+		A10C49D9157D7E1B00DBB7D0 /* ycocoaaditions-MacOSX-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ycocoaaditions-MacOSX-Prefix.pch"; sourceTree = "<group>"; };
+		A10C49DD157D7E1B00DBB7D0 /* yoauthv1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauthv1.h; sourceTree = "<group>"; };
+		A10C49DE157D7E1B00DBB7D0 /* yoauthv1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yoauthv1.m; sourceTree = "<group>"; };
+		A10C49DF157D7E1B00DBB7D0 /* yoauthv1_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauthv1_internal.h; sourceTree = "<group>"; };
+		A10C49E0157D7E1B00DBB7D0 /* yoauthv1_internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yoauthv1_internal.m; sourceTree = "<group>"; };
+		A10C49E2157D7E1B00DBB7D0 /* NSError+YOAuthv2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+YOAuthv2.h"; sourceTree = "<group>"; };
+		A10C49E3157D7E1B00DBB7D0 /* NSError+YOAuthv2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+YOAuthv2.m"; sourceTree = "<group>"; };
+		A10C49E4157D7E1B00DBB7D0 /* yoauthv2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauthv2.h; sourceTree = "<group>"; };
+		A10C49E5157D7E1B00DBB7D0 /* yoauthv2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yoauthv2.m; sourceTree = "<group>"; };
+		A10C49E6157D7E1B00DBB7D0 /* yoauth-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "yoauth-Prefix.pch"; sourceTree = "<group>"; };
+		A10C49E7157D7E1B00DBB7D0 /* yoauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauth.h; sourceTree = "<group>"; };
+		A10C49E8157D7E1B00DBB7D0 /* yoauth_utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauth_utilities.h; sourceTree = "<group>"; };
+		A10C49E9157D7E1B00DBB7D0 /* yoauth_utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yoauth_utilities.m; sourceTree = "<group>"; };
+		A10C49EC157D7E1B00DBB7D0 /* NSMutableURLRequest+YOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+YOAuth.h"; sourceTree = "<group>"; };
+		A10C49ED157D7E1B00DBB7D0 /* NSMutableURLRequest+YOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+YOAuth.m"; sourceTree = "<group>"; };
+		A10C49EE157D7E1B00DBB7D0 /* yoauthadditions-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "yoauthadditions-Prefix.pch"; sourceTree = "<group>"; };
+		A10C49EF157D7E1B00DBB7D0 /* yoauthadditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauthadditions.h; sourceTree = "<group>"; };
+		A10C49F2157D7E1B00DBB7D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A10C49F3157D7E1B00DBB7D0 /* ytoolkit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ytoolkit-Info.plist"; sourceTree = "<group>"; };
+		A10C49F4157D7E1B00DBB7D0 /* ytoolkit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ytoolkit-Prefix.pch"; sourceTree = "<group>"; };
+		A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ytoolkit.xcodeproj; sourceTree = "<group>"; };
+		A10C49FA157D7E1B00DBB7D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ErrorLocalizedString.strings; sourceTree = "<group>"; };
+		A10C49FC157D7E1B00DBB7D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A10C49FD157D7E1B00DBB7D0 /* ytoolkitbundle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ytoolkitbundle-Info.plist"; sourceTree = "<group>"; };
+		A10C49FE157D7E1B00DBB7D0 /* ytoolkitbundle-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ytoolkitbundle-Prefix.pch"; sourceTree = "<group>"; };
 		A8137BB315774AAC008674C8 /* VMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTabBarController.h; sourceTree = "<group>"; };
 		A8137BB415774AAC008674C8 /* VMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTabBarController.m; sourceTree = "<group>"; };
 		A8137BB615774DD5008674C8 /* I4T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = I4T.png; path = ../I4T.png; sourceTree = "<group>"; };
@@ -225,56 +273,6 @@
 		A89A6AFE15780C4C00AE8ADC /* VMTrelloApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTrelloApiClient.m; sourceTree = "<group>"; };
 		A89A6B1C15783ADF00AE8ADC /* TrelloDataEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrelloDataEntryViewController.h; sourceTree = "<group>"; };
 		A89A6B1D15783AE000AE8ADC /* TrelloDataEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrelloDataEntryViewController.m; sourceTree = "<group>"; };
-		A8B3514115770ABD004EB874 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		A8B3514215770ABD004EB874 /* BENCHMARK */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BENCHMARK; sourceTree = "<group>"; };
-		A8B3514315770ABD004EB874 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
-		A8B3514415770ABD004EB874 /* COPYING.LESSER */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.LESSER; sourceTree = "<group>"; };
-		A8B3514A15770ABD004EB874 /* ydefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ydefines.h; sourceTree = "<group>"; };
-		A8B3514B15770ABD004EB874 /* ymacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ymacros.h; sourceTree = "<group>"; };
-		A8B3514C15770ABD004EB874 /* ytiming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ytiming.h; sourceTree = "<group>"; };
-		A8B3514D15770ABD004EB874 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
-		A8B3517C15770ABD004EB874 /* ycocoaaditions-MacOSX-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ycocoaaditions-MacOSX-Prefix.pch"; sourceTree = "<group>"; };
-		A8B3518015770ABD004EB874 /* yoauthv1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauthv1.h; sourceTree = "<group>"; };
-		A8B3518115770ABD004EB874 /* yoauthv1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yoauthv1.m; sourceTree = "<group>"; };
-		A8B3518215770ABD004EB874 /* yoauthv1_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauthv1_internal.h; sourceTree = "<group>"; };
-		A8B3518315770ABD004EB874 /* yoauthv1_internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yoauthv1_internal.m; sourceTree = "<group>"; };
-		A8B3518515770ABD004EB874 /* NSError+YOAuthv2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+YOAuthv2.h"; sourceTree = "<group>"; };
-		A8B3518615770ABD004EB874 /* NSError+YOAuthv2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+YOAuthv2.m"; sourceTree = "<group>"; };
-		A8B3518715770ABD004EB874 /* yoauthv2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauthv2.h; sourceTree = "<group>"; };
-		A8B3518815770ABD004EB874 /* yoauthv2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yoauthv2.m; sourceTree = "<group>"; };
-		A8B3518915770ABD004EB874 /* yoauth-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "yoauth-Prefix.pch"; sourceTree = "<group>"; };
-		A8B3518A15770ABD004EB874 /* yoauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauth.h; sourceTree = "<group>"; };
-		A8B3518B15770ABD004EB874 /* yoauth_utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauth_utilities.h; sourceTree = "<group>"; };
-		A8B3518C15770ABD004EB874 /* yoauth_utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yoauth_utilities.m; sourceTree = "<group>"; };
-		A8B351A115770ABD004EB874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A8B351A215770ABD004EB874 /* ytoolkit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ytoolkit-Info.plist"; sourceTree = "<group>"; };
-		A8B351A315770ABD004EB874 /* ytoolkit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ytoolkit-Prefix.pch"; sourceTree = "<group>"; };
-		A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ytoolkit.xcodeproj; sourceTree = "<group>"; };
-		A8B351A915770ABD004EB874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ErrorLocalizedString.strings; sourceTree = "<group>"; };
-		A8B351AB15770ABD004EB874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A8B351AC15770ABD004EB874 /* ytoolkitbundle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ytoolkitbundle-Info.plist"; sourceTree = "<group>"; };
-		A8B351AD15770ABD004EB874 /* ytoolkitbundle-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ytoolkitbundle-Prefix.pch"; sourceTree = "<group>"; };
-		A8B35225157721B4004EB874 /* NSMutableURLRequest+YOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+YOAuth.h"; sourceTree = "<group>"; };
-		A8B35226157721B4004EB874 /* NSMutableURLRequest+YOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+YOAuth.m"; sourceTree = "<group>"; };
-		A8B35227157721B4004EB874 /* yoauthadditions-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "yoauthadditions-Prefix.pch"; sourceTree = "<group>"; };
-		A8B35228157721B4004EB874 /* yoauthadditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yoauthadditions.h; sourceTree = "<group>"; };
-		A8B3522B15772205004EB874 /* NSDictionary+YHTTPURLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YHTTPURLDictionary.h"; sourceTree = "<group>"; };
-		A8B3522C15772205004EB874 /* NSDictionary+YHTTPURLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YHTTPURLDictionary.m"; sourceTree = "<group>"; };
-		A8B3522D15772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+YDuplicatableDictionary.h"; sourceTree = "<group>"; };
-		A8B3522E15772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+YDuplicatableDictionary.m"; sourceTree = "<group>"; };
-		A8B3522F15772205004EB874 /* NSString+YHTTPURLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YHTTPURLString.h"; sourceTree = "<group>"; };
-		A8B3523015772205004EB874 /* NSString+YHTTPURLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YHTTPURLString.m"; sourceTree = "<group>"; };
-		A8B3523115772205004EB874 /* ycocoaadditions-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ycocoaadditions-Prefix.pch"; sourceTree = "<group>"; };
-		A8B3523215772205004EB874 /* ycocoaadditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ycocoaadditions.h; sourceTree = "<group>"; };
-		A8B3523715772238004EB874 /* NSData+YBase64String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YBase64String.h"; sourceTree = "<group>"; };
-		A8B3523815772238004EB874 /* NSData+YBase64String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YBase64String.m"; sourceTree = "<group>"; };
-		A8B3523915772238004EB874 /* NSString+YBase64toData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YBase64toData.h"; sourceTree = "<group>"; };
-		A8B3523A15772238004EB874 /* NSString+YBase64toData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YBase64toData.m"; sourceTree = "<group>"; };
-		A8B3523B15772238004EB874 /* ybase64additions-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ybase64additions-Prefix.pch"; sourceTree = "<group>"; };
-		A8B3523C15772238004EB874 /* ybase64additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ybase64additions.h; sourceTree = "<group>"; };
-		A8B352401577235F004EB874 /* ybase64-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ybase64-Prefix.pch"; sourceTree = "<group>"; };
-		A8B352421577235F004EB874 /* ybase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ybase64.h; sourceTree = "<group>"; };
-		A8B35244157723BC004EB874 /* ybase64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ybase64.c; sourceTree = "<group>"; };
 		A8B3553215772C1E004EB874 /* TrelloLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrelloLoginViewController.xib; sourceTree = "<group>"; };
 		A8F969EB15769E08007D2E6A /* ios4trello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios4trello.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F969EF15769E08007D2E6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -365,6 +363,218 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10C49B7157D7E1B00DBB7D0 /* ytoolkit */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49B8157D7E1B00DBB7D0 /* BENCHMARK */,
+				A10C49B9157D7E1B00DBB7D0 /* COPYING */,
+				A10C49BA157D7E1B00DBB7D0 /* COPYING.LESSER */,
+				A10C49BB157D7E1B00DBB7D0 /* externals */,
+				A10C49BC157D7E1B00DBB7D0 /* include */,
+				A10C49C0157D7E1B00DBB7D0 /* README.markdown */,
+				A10C49C1157D7E1B00DBB7D0 /* ybase64 */,
+				A10C49C6157D7E1B00DBB7D0 /* ybase64additions */,
+				A10C49CE157D7E1B00DBB7D0 /* ycocoaadditions */,
+				A10C49D8157D7E1B00DBB7D0 /* ycocoaaditions-MacOSX */,
+				A10C49DA157D7E1B00DBB7D0 /* yoauth */,
+				A10C49EA157D7E1B00DBB7D0 /* yoauthadditions */,
+				A10C49F0157D7E1B00DBB7D0 /* ytoolkit */,
+				A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */,
+				A10C49F8157D7E1B00DBB7D0 /* ytoolkitbundle */,
+			);
+			path = ytoolkit;
+			sourceTree = "<group>";
+		};
+		A10C49BB157D7E1B00DBB7D0 /* externals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = externals;
+			sourceTree = "<group>";
+		};
+		A10C49BC157D7E1B00DBB7D0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49BD157D7E1B00DBB7D0 /* ydefines.h */,
+				A10C49BE157D7E1B00DBB7D0 /* ymacros.h */,
+				A10C49BF157D7E1B00DBB7D0 /* ytiming.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A10C49C1157D7E1B00DBB7D0 /* ybase64 */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49C2157D7E1B00DBB7D0 /* code */,
+			);
+			path = ybase64;
+			sourceTree = "<group>";
+		};
+		A10C49C2157D7E1B00DBB7D0 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49C3157D7E1B00DBB7D0 /* ybase64-Prefix.pch */,
+				A10C49C4157D7E1B00DBB7D0 /* ybase64.c */,
+				A10C49C5157D7E1B00DBB7D0 /* ybase64.h */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		A10C49C6157D7E1B00DBB7D0 /* ybase64additions */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49C7157D7E1B00DBB7D0 /* code */,
+			);
+			path = ybase64additions;
+			sourceTree = "<group>";
+		};
+		A10C49C7157D7E1B00DBB7D0 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49C8157D7E1B00DBB7D0 /* NSData+YBase64String.h */,
+				A10C49C9157D7E1B00DBB7D0 /* NSData+YBase64String.m */,
+				A10C49CA157D7E1B00DBB7D0 /* NSString+YBase64toData.h */,
+				A10C49CB157D7E1B00DBB7D0 /* NSString+YBase64toData.m */,
+				A10C49CC157D7E1B00DBB7D0 /* ybase64additions-Prefix.pch */,
+				A10C49CD157D7E1B00DBB7D0 /* ybase64additions.h */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		A10C49CE157D7E1B00DBB7D0 /* ycocoaadditions */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49CF157D7E1B00DBB7D0 /* code */,
+			);
+			path = ycocoaadditions;
+			sourceTree = "<group>";
+		};
+		A10C49CF157D7E1B00DBB7D0 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49D0157D7E1B00DBB7D0 /* NSDictionary+YHTTPURLDictionary.h */,
+				A10C49D1157D7E1B00DBB7D0 /* NSDictionary+YHTTPURLDictionary.m */,
+				A10C49D2157D7E1B00DBB7D0 /* NSMutableDictionary+YDuplicatableDictionary.h */,
+				A10C49D3157D7E1B00DBB7D0 /* NSMutableDictionary+YDuplicatableDictionary.m */,
+				A10C49D4157D7E1B00DBB7D0 /* NSString+YHTTPURLString.h */,
+				A10C49D5157D7E1B00DBB7D0 /* NSString+YHTTPURLString.m */,
+				A10C49D6157D7E1B00DBB7D0 /* ycocoaadditions-Prefix.pch */,
+				A10C49D7157D7E1B00DBB7D0 /* ycocoaadditions.h */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		A10C49D8157D7E1B00DBB7D0 /* ycocoaaditions-MacOSX */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49D9157D7E1B00DBB7D0 /* ycocoaaditions-MacOSX-Prefix.pch */,
+			);
+			path = "ycocoaaditions-MacOSX";
+			sourceTree = "<group>";
+		};
+		A10C49DA157D7E1B00DBB7D0 /* yoauth */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49DB157D7E1B00DBB7D0 /* code */,
+			);
+			path = yoauth;
+			sourceTree = "<group>";
+		};
+		A10C49DB157D7E1B00DBB7D0 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49DC157D7E1B00DBB7D0 /* oauthv1 */,
+				A10C49E1157D7E1B00DBB7D0 /* oauthv2 */,
+				A10C49E6157D7E1B00DBB7D0 /* yoauth-Prefix.pch */,
+				A10C49E7157D7E1B00DBB7D0 /* yoauth.h */,
+				A10C49E8157D7E1B00DBB7D0 /* yoauth_utilities.h */,
+				A10C49E9157D7E1B00DBB7D0 /* yoauth_utilities.m */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		A10C49DC157D7E1B00DBB7D0 /* oauthv1 */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49DD157D7E1B00DBB7D0 /* yoauthv1.h */,
+				A10C49DE157D7E1B00DBB7D0 /* yoauthv1.m */,
+				A10C49DF157D7E1B00DBB7D0 /* yoauthv1_internal.h */,
+				A10C49E0157D7E1B00DBB7D0 /* yoauthv1_internal.m */,
+			);
+			path = oauthv1;
+			sourceTree = "<group>";
+		};
+		A10C49E1157D7E1B00DBB7D0 /* oauthv2 */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49E2157D7E1B00DBB7D0 /* NSError+YOAuthv2.h */,
+				A10C49E3157D7E1B00DBB7D0 /* NSError+YOAuthv2.m */,
+				A10C49E4157D7E1B00DBB7D0 /* yoauthv2.h */,
+				A10C49E5157D7E1B00DBB7D0 /* yoauthv2.m */,
+			);
+			path = oauthv2;
+			sourceTree = "<group>";
+		};
+		A10C49EA157D7E1B00DBB7D0 /* yoauthadditions */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49EB157D7E1B00DBB7D0 /* code */,
+			);
+			path = yoauthadditions;
+			sourceTree = "<group>";
+		};
+		A10C49EB157D7E1B00DBB7D0 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49EC157D7E1B00DBB7D0 /* NSMutableURLRequest+YOAuth.h */,
+				A10C49ED157D7E1B00DBB7D0 /* NSMutableURLRequest+YOAuth.m */,
+				A10C49EE157D7E1B00DBB7D0 /* yoauthadditions-Prefix.pch */,
+				A10C49EF157D7E1B00DBB7D0 /* yoauthadditions.h */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		A10C49F0157D7E1B00DBB7D0 /* ytoolkit */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49F1157D7E1B00DBB7D0 /* InfoPlist.strings */,
+				A10C49F3157D7E1B00DBB7D0 /* ytoolkit-Info.plist */,
+				A10C49F4157D7E1B00DBB7D0 /* ytoolkit-Prefix.pch */,
+			);
+			path = ytoolkit;
+			sourceTree = "<group>";
+		};
+		A10C49F6157D7E1B00DBB7D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10C4A25157D7E1C00DBB7D0 /* libybase64.a */,
+				A10C4A27157D7E1C00DBB7D0 /* libybase64additions.a */,
+				A10C4A29157D7E1C00DBB7D0 /* libycocoaadditions.a */,
+				A10C4A2B157D7E1C00DBB7D0 /* libyoauth.a */,
+				A10C4A2D157D7E1C00DBB7D0 /* libyoauthadditions.a */,
+				A10C4A2F157D7E1C00DBB7D0 /* ybase64Tests.octest */,
+				A10C4A31157D7E1C00DBB7D0 /* ycocoaadditionsTests.octest */,
+				A10C4A33157D7E1C00DBB7D0 /* ybase64additionsTests.octest */,
+				A10C4A35157D7E1C00DBB7D0 /* yoauthTests.octest */,
+				A10C4A37157D7E1C00DBB7D0 /* ytoolkit.framework */,
+				A10C4A39157D7E1C00DBB7D0 /* yoauthadditionsTests.octest */,
+				A10C4A3B157D7E1C00DBB7D0 /* ytoolkitbundle.bundle */,
+				A10C4A3D157D7E1C00DBB7D0 /* libycocoaadditions.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10C49F8157D7E1B00DBB7D0 /* ytoolkitbundle */ = {
+			isa = PBXGroup;
+			children = (
+				A10C49F9157D7E1B00DBB7D0 /* ErrorLocalizedString.strings */,
+				A10C49FB157D7E1B00DBB7D0 /* InfoPlist.strings */,
+				A10C49FD157D7E1B00DBB7D0 /* ytoolkitbundle-Info.plist */,
+				A10C49FE157D7E1B00DBB7D0 /* ytoolkitbundle-Prefix.pch */,
+			);
+			path = ytoolkitbundle;
+			sourceTree = "<group>";
+		};
 		A849DCB41576E06A008D411C /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
@@ -405,220 +615,6 @@
 				A89A6AFE15780C4C00AE8ADC /* VMTrelloApiClient.m */,
 			);
 			path = "ios-trelloAPIClient";
-			sourceTree = "<group>";
-		};
-		A8B3514015770ABD004EB874 /* ytoolkit */ = {
-			isa = PBXGroup;
-			children = (
-				A8B3514115770ABD004EB874 /* .gitignore */,
-				A8B3514215770ABD004EB874 /* BENCHMARK */,
-				A8B3514315770ABD004EB874 /* COPYING */,
-				A8B3514415770ABD004EB874 /* COPYING.LESSER */,
-				A8B3514515770ABD004EB874 /* externals */,
-				A8B3514915770ABD004EB874 /* include */,
-				A8B3514D15770ABD004EB874 /* README.markdown */,
-				A8B3514E15770ABD004EB874 /* ybase64 */,
-				A8B3515B15770ABD004EB874 /* ybase64additions */,
-				A8B3516915770ABD004EB874 /* ycocoaadditions */,
-				A8B3517B15770ABD004EB874 /* ycocoaaditions-MacOSX */,
-				A8B3517D15770ABD004EB874 /* yoauth */,
-				A8B3519315770ABD004EB874 /* yoauthadditions */,
-				A8B3519F15770ABD004EB874 /* ytoolkit */,
-				A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */,
-				A8B351A715770ABD004EB874 /* ytoolkitbundle */,
-			);
-			name = ytoolkit;
-			path = ../ytoolkit;
-			sourceTree = "<group>";
-		};
-		A8B3514515770ABD004EB874 /* externals */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = externals;
-			sourceTree = "<group>";
-		};
-		A8B3514915770ABD004EB874 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				A8B3514A15770ABD004EB874 /* ydefines.h */,
-				A8B3514B15770ABD004EB874 /* ymacros.h */,
-				A8B3514C15770ABD004EB874 /* ytiming.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		A8B3514E15770ABD004EB874 /* ybase64 */ = {
-			isa = PBXGroup;
-			children = (
-				A8B3523F1577235F004EB874 /* code */,
-			);
-			path = ybase64;
-			sourceTree = "<group>";
-		};
-		A8B3515B15770ABD004EB874 /* ybase64additions */ = {
-			isa = PBXGroup;
-			children = (
-				A8B3523615772238004EB874 /* code */,
-			);
-			path = ybase64additions;
-			sourceTree = "<group>";
-		};
-		A8B3516915770ABD004EB874 /* ycocoaadditions */ = {
-			isa = PBXGroup;
-			children = (
-				A8B3522A15772205004EB874 /* code */,
-			);
-			path = ycocoaadditions;
-			sourceTree = "<group>";
-		};
-		A8B3517B15770ABD004EB874 /* ycocoaaditions-MacOSX */ = {
-			isa = PBXGroup;
-			children = (
-				A8B3517C15770ABD004EB874 /* ycocoaaditions-MacOSX-Prefix.pch */,
-			);
-			path = "ycocoaaditions-MacOSX";
-			sourceTree = "<group>";
-		};
-		A8B3517D15770ABD004EB874 /* yoauth */ = {
-			isa = PBXGroup;
-			children = (
-				A8B3517E15770ABD004EB874 /* code */,
-			);
-			path = yoauth;
-			sourceTree = "<group>";
-		};
-		A8B3517E15770ABD004EB874 /* code */ = {
-			isa = PBXGroup;
-			children = (
-				A8B3517F15770ABD004EB874 /* oauthv1 */,
-				A8B3518415770ABD004EB874 /* oauthv2 */,
-				A8B3518915770ABD004EB874 /* yoauth-Prefix.pch */,
-				A8B3518A15770ABD004EB874 /* yoauth.h */,
-				A8B3518B15770ABD004EB874 /* yoauth_utilities.h */,
-				A8B3518C15770ABD004EB874 /* yoauth_utilities.m */,
-			);
-			path = code;
-			sourceTree = "<group>";
-		};
-		A8B3517F15770ABD004EB874 /* oauthv1 */ = {
-			isa = PBXGroup;
-			children = (
-				A8B3518015770ABD004EB874 /* yoauthv1.h */,
-				A8B3518115770ABD004EB874 /* yoauthv1.m */,
-				A8B3518215770ABD004EB874 /* yoauthv1_internal.h */,
-				A8B3518315770ABD004EB874 /* yoauthv1_internal.m */,
-			);
-			path = oauthv1;
-			sourceTree = "<group>";
-		};
-		A8B3518415770ABD004EB874 /* oauthv2 */ = {
-			isa = PBXGroup;
-			children = (
-				A8B3518515770ABD004EB874 /* NSError+YOAuthv2.h */,
-				A8B3518615770ABD004EB874 /* NSError+YOAuthv2.m */,
-				A8B3518715770ABD004EB874 /* yoauthv2.h */,
-				A8B3518815770ABD004EB874 /* yoauthv2.m */,
-			);
-			path = oauthv2;
-			sourceTree = "<group>";
-		};
-		A8B3519315770ABD004EB874 /* yoauthadditions */ = {
-			isa = PBXGroup;
-			children = (
-				A8B35224157721B4004EB874 /* code */,
-			);
-			path = yoauthadditions;
-			sourceTree = "<group>";
-		};
-		A8B3519F15770ABD004EB874 /* ytoolkit */ = {
-			isa = PBXGroup;
-			children = (
-				A8B351A015770ABD004EB874 /* InfoPlist.strings */,
-				A8B351A215770ABD004EB874 /* ytoolkit-Info.plist */,
-				A8B351A315770ABD004EB874 /* ytoolkit-Prefix.pch */,
-			);
-			path = ytoolkit;
-			sourceTree = "<group>";
-		};
-		A8B351A515770ABD004EB874 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A8B351E715770ABE004EB874 /* libybase64.a */,
-				A8B351E915770ABE004EB874 /* libybase64additions.a */,
-				A8B351EB15770ABE004EB874 /* libycocoaadditions.a */,
-				A8B351ED15770ABE004EB874 /* libyoauth.a */,
-				A8B351EF15770ABE004EB874 /* libyoauthadditions.a */,
-				A8B351F115770ABE004EB874 /* ybase64Tests.octest */,
-				A8B351F315770ABE004EB874 /* ycocoaadditionsTests.octest */,
-				A8B351F515770ABE004EB874 /* ybase64additionsTests.octest */,
-				A8B351F715770ABE004EB874 /* yoauthTests.octest */,
-				A8B351F915770ABE004EB874 /* ytoolkit.framework */,
-				A8B351FB15770ABE004EB874 /* yoauthadditionsTests.octest */,
-				A8B351FD15770ABE004EB874 /* ytoolkitbundle.bundle */,
-				A8B351FF15770ABE004EB874 /* libycocoaadditions.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A8B351A715770ABD004EB874 /* ytoolkitbundle */ = {
-			isa = PBXGroup;
-			children = (
-				A8B351A815770ABD004EB874 /* ErrorLocalizedString.strings */,
-				A8B351AA15770ABD004EB874 /* InfoPlist.strings */,
-				A8B351AC15770ABD004EB874 /* ytoolkitbundle-Info.plist */,
-				A8B351AD15770ABD004EB874 /* ytoolkitbundle-Prefix.pch */,
-			);
-			path = ytoolkitbundle;
-			sourceTree = "<group>";
-		};
-		A8B35224157721B4004EB874 /* code */ = {
-			isa = PBXGroup;
-			children = (
-				A8B35225157721B4004EB874 /* NSMutableURLRequest+YOAuth.h */,
-				A8B35226157721B4004EB874 /* NSMutableURLRequest+YOAuth.m */,
-				A8B35227157721B4004EB874 /* yoauthadditions-Prefix.pch */,
-				A8B35228157721B4004EB874 /* yoauthadditions.h */,
-			);
-			path = code;
-			sourceTree = "<group>";
-		};
-		A8B3522A15772205004EB874 /* code */ = {
-			isa = PBXGroup;
-			children = (
-				A8B3522B15772205004EB874 /* NSDictionary+YHTTPURLDictionary.h */,
-				A8B3522C15772205004EB874 /* NSDictionary+YHTTPURLDictionary.m */,
-				A8B3522D15772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.h */,
-				A8B3522E15772205004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m */,
-				A8B3522F15772205004EB874 /* NSString+YHTTPURLString.h */,
-				A8B3523015772205004EB874 /* NSString+YHTTPURLString.m */,
-				A8B3523115772205004EB874 /* ycocoaadditions-Prefix.pch */,
-				A8B3523215772205004EB874 /* ycocoaadditions.h */,
-			);
-			path = code;
-			sourceTree = "<group>";
-		};
-		A8B3523615772238004EB874 /* code */ = {
-			isa = PBXGroup;
-			children = (
-				A8B3523715772238004EB874 /* NSData+YBase64String.h */,
-				A8B3523815772238004EB874 /* NSData+YBase64String.m */,
-				A8B3523915772238004EB874 /* NSString+YBase64toData.h */,
-				A8B3523A15772238004EB874 /* NSString+YBase64toData.m */,
-				A8B3523B15772238004EB874 /* ybase64additions-Prefix.pch */,
-				A8B3523C15772238004EB874 /* ybase64additions.h */,
-			);
-			path = code;
-			sourceTree = "<group>";
-		};
-		A8B3523F1577235F004EB874 /* code */ = {
-			isa = PBXGroup;
-			children = (
-				A8B35244157723BC004EB874 /* ybase64.c */,
-				A8B352401577235F004EB874 /* ybase64-Prefix.pch */,
-				A8B352421577235F004EB874 /* ybase64.h */,
-			);
-			path = code;
 			sourceTree = "<group>";
 		};
 		A8F969E015769E08007D2E6A = {
@@ -754,7 +750,7 @@
 		A8F96AAD1576B410007D2E6A /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				A8B3514015770ABD004EB874 /* ytoolkit */,
+				A10C49B7157D7E1B00DBB7D0 /* ytoolkit */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
@@ -821,7 +817,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A8B3524A157727C7004EB874 /* PBXTargetDependency */,
+				A10C4A3F157D7E2700DBB7D0 /* PBXTargetDependency */,
 			);
 			name = ios4trello;
 			productName = "ios-trello";
@@ -869,8 +865,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = A8B351A515770ABD004EB874 /* Products */;
-					ProjectRef = A8B351A415770ABD004EB874 /* ytoolkit.xcodeproj */;
+					ProductGroup = A10C49F6157D7E1B00DBB7D0 /* Products */;
+					ProjectRef = A10C49F5157D7E1B00DBB7D0 /* ytoolkit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -882,95 +878,95 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		A8B351E715770ABE004EB874 /* libybase64.a */ = {
+		A10C4A25157D7E1C00DBB7D0 /* libybase64.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libybase64.a;
-			remoteRef = A8B351E615770ABE004EB874 /* PBXContainerItemProxy */;
+			remoteRef = A10C4A24157D7E1C00DBB7D0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A8B351E915770ABE004EB874 /* libybase64additions.a */ = {
+		A10C4A27157D7E1C00DBB7D0 /* libybase64additions.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libybase64additions.a;
-			remoteRef = A8B351E815770ABE004EB874 /* PBXContainerItemProxy */;
+			remoteRef = A10C4A26157D7E1C00DBB7D0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A8B351EB15770ABE004EB874 /* libycocoaadditions.a */ = {
+		A10C4A29157D7E1C00DBB7D0 /* libycocoaadditions.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libycocoaadditions.a;
-			remoteRef = A8B351EA15770ABE004EB874 /* PBXContainerItemProxy */;
+			remoteRef = A10C4A28157D7E1C00DBB7D0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A8B351ED15770ABE004EB874 /* libyoauth.a */ = {
+		A10C4A2B157D7E1C00DBB7D0 /* libyoauth.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libyoauth.a;
-			remoteRef = A8B351EC15770ABE004EB874 /* PBXContainerItemProxy */;
+			remoteRef = A10C4A2A157D7E1C00DBB7D0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A8B351EF15770ABE004EB874 /* libyoauthadditions.a */ = {
+		A10C4A2D157D7E1C00DBB7D0 /* libyoauthadditions.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libyoauthadditions.a;
-			remoteRef = A8B351EE15770ABE004EB874 /* PBXContainerItemProxy */;
+			remoteRef = A10C4A2C157D7E1C00DBB7D0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A8B351F115770ABE004EB874 /* ybase64Tests.octest */ = {
+		A10C4A2F157D7E1C00DBB7D0 /* ybase64Tests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ybase64Tests.octest;
-			remoteRef = A8B351F015770ABE004EB874 /* PBXContainerItemProxy */;
+			remoteRef = A10C4A2E157D7E1C00DBB7D0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A8B351F315770ABE004EB874 /* ycocoaadditionsTests.octest */ = {
+		A10C4A31157D7E1C00DBB7D0 /* ycocoaadditionsTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ycocoaadditionsTests.octest;
-			remoteRef = A8B351F215770ABE004EB874 /* PBXContainerItemProxy */;
+			remoteRef = A10C4A30157D7E1C00DBB7D0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A8B351F515770ABE004EB874 /* ybase64additionsTests.octest */ = {
+		A10C4A33157D7E1C00DBB7D0 /* ybase64additionsTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ybase64additionsTests.octest;
-			remoteRef = A8B351F415770ABE004EB874 /* PBXContainerItemProxy */;
+			remoteRef = A10C4A32157D7E1C00DBB7D0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A8B351F715770ABE004EB874 /* yoauthTests.octest */ = {
+		A10C4A35157D7E1C00DBB7D0 /* yoauthTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = yoauthTests.octest;
-			remoteRef = A8B351F615770ABE004EB874 /* PBXContainerItemProxy */;
+			remoteRef = A10C4A34157D7E1C00DBB7D0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A8B351F915770ABE004EB874 /* ytoolkit.framework */ = {
+		A10C4A37157D7E1C00DBB7D0 /* ytoolkit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ytoolkit.framework;
-			remoteRef = A8B351F815770ABE004EB874 /* PBXContainerItemProxy */;
+			remoteRef = A10C4A36157D7E1C00DBB7D0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A8B351FB15770ABE004EB874 /* yoauthadditionsTests.octest */ = {
+		A10C4A39157D7E1C00DBB7D0 /* yoauthadditionsTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = yoauthadditionsTests.octest;
-			remoteRef = A8B351FA15770ABE004EB874 /* PBXContainerItemProxy */;
+			remoteRef = A10C4A38157D7E1C00DBB7D0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A8B351FD15770ABE004EB874 /* ytoolkitbundle.bundle */ = {
+		A10C4A3B157D7E1C00DBB7D0 /* ytoolkitbundle.bundle */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ytoolkitbundle.bundle;
-			remoteRef = A8B351FC15770ABE004EB874 /* PBXContainerItemProxy */;
+			remoteRef = A10C4A3A157D7E1C00DBB7D0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A8B351FF15770ABE004EB874 /* libycocoaadditions.a */ = {
+		A10C4A3D157D7E1C00DBB7D0 /* libycocoaadditions.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libycocoaadditions.a;
-			remoteRef = A8B351FE15770ABE004EB874 /* PBXContainerItemProxy */;
+			remoteRef = A10C4A3C157D7E1C00DBB7D0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -987,19 +983,18 @@
 				A8F96A0D15769E08007D2E6A /* first@2x.png in Resources */,
 				A8F96A1215769E08007D2E6A /* second.png in Resources */,
 				A8F96A1415769E08007D2E6A /* second@2x.png in Resources */,
-				A8B351B115770ABD004EB874 /* .gitignore in Resources */,
-				A8B351B215770ABD004EB874 /* BENCHMARK in Resources */,
-				A8B351B315770ABD004EB874 /* COPYING in Resources */,
-				A8B351B415770ABD004EB874 /* COPYING.LESSER in Resources */,
-				A8B351B615770ABD004EB874 /* README.markdown in Resources */,
-				A8B351D415770ABD004EB874 /* InfoPlist.strings in Resources */,
-				A8B351D515770ABD004EB874 /* ytoolkit-Info.plist in Resources */,
-				A8B351D615770ABD004EB874 /* ErrorLocalizedString.strings in Resources */,
-				A8B351D715770ABD004EB874 /* InfoPlist.strings in Resources */,
-				A8B351D815770ABD004EB874 /* ytoolkitbundle-Info.plist in Resources */,
 				A8B3553315772C1E004EB874 /* TrelloLoginViewController.xib in Resources */,
 				A8137BB715774DD5008674C8 /* I4T.png in Resources */,
 				A8137BB915774E23008674C8 /* I4Tx2.png in Resources */,
+				A10C4A02157D7E1C00DBB7D0 /* BENCHMARK in Resources */,
+				A10C4A03157D7E1C00DBB7D0 /* COPYING in Resources */,
+				A10C4A04157D7E1C00DBB7D0 /* COPYING.LESSER in Resources */,
+				A10C4A05157D7E1C00DBB7D0 /* README.markdown in Resources */,
+				A10C4A12157D7E1C00DBB7D0 /* InfoPlist.strings in Resources */,
+				A10C4A13157D7E1C00DBB7D0 /* ytoolkit-Info.plist in Resources */,
+				A10C4A14157D7E1C00DBB7D0 /* ErrorLocalizedString.strings in Resources */,
+				A10C4A15157D7E1C00DBB7D0 /* InfoPlist.strings in Resources */,
+				A10C4A16157D7E1C00DBB7D0 /* ytoolkitbundle-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1034,18 +1029,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8B3553815773E51004EB874 /* NSData+YBase64String.m in Sources */,
-				A8B3553915773E51004EB874 /* NSString+YBase64toData.m in Sources */,
-				A8B3553A15773E51004EB874 /* NSDictionary+YHTTPURLDictionary.m in Sources */,
-				A8B3553B15773E51004EB874 /* NSMutableDictionary+YDuplicatableDictionary.m in Sources */,
-				A8B3553C15773E51004EB874 /* NSString+YHTTPURLString.m in Sources */,
-				A8B3553D15773E51004EB874 /* yoauthv1.m in Sources */,
-				A8B3553E15773E51004EB874 /* yoauthv1_internal.m in Sources */,
-				A8B3553F15773E51004EB874 /* NSError+YOAuthv2.m in Sources */,
-				A8B3554015773E51004EB874 /* yoauthv2.m in Sources */,
-				A8B3554115773E51004EB874 /* yoauth_utilities.m in Sources */,
-				A8B3554215773E51004EB874 /* NSMutableURLRequest+YOAuth.m in Sources */,
-				A8B3553715773E10004EB874 /* ybase64.c in Sources */,
 				A8F969FC15769E08007D2E6A /* main.m in Sources */,
 				A8F96A0015769E08007D2E6A /* VMAppDelegate.m in Sources */,
 				A8F96A791576B341007D2E6A /* TrelloBoardOpsViewController.m in Sources */,
@@ -1080,6 +1063,18 @@
 				A89A6B0915780C4C00AE8ADC /* VMTrelloApiClient+Type.m in Sources */,
 				A89A6B0A15780C4C00AE8ADC /* VMTrelloApiClient.m in Sources */,
 				A89A6B1E15783AE000AE8ADC /* TrelloDataEntryViewController.m in Sources */,
+				A10C4A06157D7E1C00DBB7D0 /* ybase64.c in Sources */,
+				A10C4A07157D7E1C00DBB7D0 /* NSData+YBase64String.m in Sources */,
+				A10C4A08157D7E1C00DBB7D0 /* NSString+YBase64toData.m in Sources */,
+				A10C4A09157D7E1C00DBB7D0 /* NSDictionary+YHTTPURLDictionary.m in Sources */,
+				A10C4A0A157D7E1C00DBB7D0 /* NSMutableDictionary+YDuplicatableDictionary.m in Sources */,
+				A10C4A0B157D7E1C00DBB7D0 /* NSString+YHTTPURLString.m in Sources */,
+				A10C4A0C157D7E1C00DBB7D0 /* yoauthv1.m in Sources */,
+				A10C4A0D157D7E1C00DBB7D0 /* yoauthv1_internal.m in Sources */,
+				A10C4A0E157D7E1C00DBB7D0 /* NSError+YOAuthv2.m in Sources */,
+				A10C4A0F157D7E1C00DBB7D0 /* yoauthv2.m in Sources */,
+				A10C4A10157D7E1C00DBB7D0 /* yoauth_utilities.m in Sources */,
+				A10C4A11157D7E1C00DBB7D0 /* NSMutableURLRequest+YOAuth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1094,10 +1089,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A8B3524A157727C7004EB874 /* PBXTargetDependency */ = {
+		A10C4A3F157D7E2700DBB7D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ytoolkit;
-			targetProxy = A8B35249157727C7004EB874 /* PBXContainerItemProxy */;
+			targetProxy = A10C4A3E157D7E2700DBB7D0 /* PBXContainerItemProxy */;
 		};
 		A8F96A2015769E08007D2E6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1107,26 +1102,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A8B351A015770ABD004EB874 /* InfoPlist.strings */ = {
+		A10C49F1157D7E1B00DBB7D0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A8B351A115770ABD004EB874 /* en */,
+				A10C49F2157D7E1B00DBB7D0 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		A8B351A815770ABD004EB874 /* ErrorLocalizedString.strings */ = {
+		A10C49F9157D7E1B00DBB7D0 /* ErrorLocalizedString.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A8B351A915770ABD004EB874 /* en */,
+				A10C49FA157D7E1B00DBB7D0 /* en */,
 			);
 			name = ErrorLocalizedString.strings;
 			sourceTree = "<group>";
 		};
-		A8B351AA15770ABD004EB874 /* InfoPlist.strings */ = {
+		A10C49FB157D7E1B00DBB7D0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A8B351AB15770ABD004EB874 /* en */,
+				A10C49FC157D7E1B00DBB7D0 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
