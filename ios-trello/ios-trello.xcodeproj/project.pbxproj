@@ -31,13 +31,13 @@
 		A8137BB515774AAC008674C8 /* VMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8137BB415774AAC008674C8 /* VMTabBarController.m */; };
 		A8137BB715774DD5008674C8 /* I4T.png in Resources */ = {isa = PBXBuildFile; fileRef = A8137BB615774DD5008674C8 /* I4T.png */; };
 		A8137BB915774E23008674C8 /* I4Tx2.png in Resources */ = {isa = PBXBuildFile; fileRef = A8137BB815774E23008674C8 /* I4Tx2.png */; };
+		A85AB56015819E35005D7018 /* VMTrelloApiClient+Member.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AB55F15819E35005D7018 /* VMTrelloApiClient+Member.m */; };
 		A89A6AFF15780C4C00AE8ADC /* TrelloClientCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = A89A6AE715780C4C00AE8ADC /* TrelloClientCredentials.m */; };
 		A89A6B0015780C4C00AE8ADC /* VMTrelloApiClient+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = A89A6AEA15780C4C00AE8ADC /* VMTrelloApiClient+Action.m */; };
 		A89A6B0115780C4C00AE8ADC /* VMTrelloApiClient+Board.m in Sources */ = {isa = PBXBuildFile; fileRef = A89A6AEC15780C4C00AE8ADC /* VMTrelloApiClient+Board.m */; };
 		A89A6B0215780C4C00AE8ADC /* VMTrelloApiClient+Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A89A6AEE15780C4C00AE8ADC /* VMTrelloApiClient+Card.m */; };
 		A89A6B0315780C4C00AE8ADC /* VMTrelloApiClient+Checklist.m in Sources */ = {isa = PBXBuildFile; fileRef = A89A6AF015780C4C00AE8ADC /* VMTrelloApiClient+Checklist.m */; };
 		A89A6B0415780C4C00AE8ADC /* VMTrelloApiClient+List.m in Sources */ = {isa = PBXBuildFile; fileRef = A89A6AF215780C4C00AE8ADC /* VMTrelloApiClient+List.m */; };
-		A89A6B0515780C4C00AE8ADC /* VMTrelloApiClient+Member.m in Sources */ = {isa = PBXBuildFile; fileRef = A89A6AF415780C4C00AE8ADC /* VMTrelloApiClient+Member.m */; };
 		A89A6B0615780C4C00AE8ADC /* VMTrelloApiClient+Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = A89A6AF615780C4C00AE8ADC /* VMTrelloApiClient+Notification.m */; };
 		A89A6B0715780C4C00AE8ADC /* VMTrelloApiClient+Organization.m in Sources */ = {isa = PBXBuildFile; fileRef = A89A6AF815780C4C00AE8ADC /* VMTrelloApiClient+Organization.m */; };
 		A89A6B0815780C4C00AE8ADC /* VMTrelloApiClient+Token.m in Sources */ = {isa = PBXBuildFile; fileRef = A89A6AFA15780C4C00AE8ADC /* VMTrelloApiClient+Token.m */; };
@@ -246,6 +246,8 @@
 		A8137BB415774AAC008674C8 /* VMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTabBarController.m; sourceTree = "<group>"; };
 		A8137BB615774DD5008674C8 /* I4T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = I4T.png; path = ../I4T.png; sourceTree = "<group>"; };
 		A8137BB815774E23008674C8 /* I4Tx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = I4Tx2.png; path = ../I4Tx2.png; sourceTree = "<group>"; };
+		A85AB55E15819E35005D7018 /* VMTrelloApiClient+Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMTrelloApiClient+Member.h"; sourceTree = "<group>"; };
+		A85AB55F15819E35005D7018 /* VMTrelloApiClient+Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VMTrelloApiClient+Member.m"; sourceTree = "<group>"; };
 		A89A6AE615780C4C00AE8ADC /* TrelloClientCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrelloClientCredentials.h; sourceTree = "<group>"; };
 		A89A6AE715780C4C00AE8ADC /* TrelloClientCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrelloClientCredentials.m; sourceTree = "<group>"; };
 		A89A6AE815780C4C00AE8ADC /* TrelloDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrelloDefines.h; sourceTree = "<group>"; };
@@ -259,8 +261,6 @@
 		A89A6AF015780C4C00AE8ADC /* VMTrelloApiClient+Checklist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VMTrelloApiClient+Checklist.m"; sourceTree = "<group>"; };
 		A89A6AF115780C4C00AE8ADC /* VMTrelloApiClient+List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMTrelloApiClient+List.h"; sourceTree = "<group>"; };
 		A89A6AF215780C4C00AE8ADC /* VMTrelloApiClient+List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VMTrelloApiClient+List.m"; sourceTree = "<group>"; };
-		A89A6AF315780C4C00AE8ADC /* VMTrelloApiClient+Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMTrelloApiClient+Member.h"; sourceTree = "<group>"; };
-		A89A6AF415780C4C00AE8ADC /* VMTrelloApiClient+Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VMTrelloApiClient+Member.m"; sourceTree = "<group>"; };
 		A89A6AF515780C4C00AE8ADC /* VMTrelloApiClient+Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMTrelloApiClient+Notification.h"; sourceTree = "<group>"; };
 		A89A6AF615780C4C00AE8ADC /* VMTrelloApiClient+Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VMTrelloApiClient+Notification.m"; sourceTree = "<group>"; };
 		A89A6AF715780C4C00AE8ADC /* VMTrelloApiClient+Organization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VMTrelloApiClient+Organization.h"; sourceTree = "<group>"; };
@@ -591,6 +591,8 @@
 				A89A6AE615780C4C00AE8ADC /* TrelloClientCredentials.h */,
 				A89A6AE715780C4C00AE8ADC /* TrelloClientCredentials.m */,
 				A89A6AE815780C4C00AE8ADC /* TrelloDefines.h */,
+				A89A6AFD15780C4C00AE8ADC /* VMTrelloApiClient.h */,
+				A89A6AFE15780C4C00AE8ADC /* VMTrelloApiClient.m */,
 				A89A6AE915780C4C00AE8ADC /* VMTrelloApiClient+Action.h */,
 				A89A6AEA15780C4C00AE8ADC /* VMTrelloApiClient+Action.m */,
 				A89A6AEB15780C4C00AE8ADC /* VMTrelloApiClient+Board.h */,
@@ -601,8 +603,8 @@
 				A89A6AF015780C4C00AE8ADC /* VMTrelloApiClient+Checklist.m */,
 				A89A6AF115780C4C00AE8ADC /* VMTrelloApiClient+List.h */,
 				A89A6AF215780C4C00AE8ADC /* VMTrelloApiClient+List.m */,
-				A89A6AF315780C4C00AE8ADC /* VMTrelloApiClient+Member.h */,
-				A89A6AF415780C4C00AE8ADC /* VMTrelloApiClient+Member.m */,
+				A85AB55E15819E35005D7018 /* VMTrelloApiClient+Member.h */,
+				A85AB55F15819E35005D7018 /* VMTrelloApiClient+Member.m */,
 				A89A6AF515780C4C00AE8ADC /* VMTrelloApiClient+Notification.h */,
 				A89A6AF615780C4C00AE8ADC /* VMTrelloApiClient+Notification.m */,
 				A89A6AF715780C4C00AE8ADC /* VMTrelloApiClient+Organization.h */,
@@ -611,8 +613,6 @@
 				A89A6AFA15780C4C00AE8ADC /* VMTrelloApiClient+Token.m */,
 				A89A6AFB15780C4C00AE8ADC /* VMTrelloApiClient+Type.h */,
 				A89A6AFC15780C4C00AE8ADC /* VMTrelloApiClient+Type.m */,
-				A89A6AFD15780C4C00AE8ADC /* VMTrelloApiClient.h */,
-				A89A6AFE15780C4C00AE8ADC /* VMTrelloApiClient.m */,
 			);
 			path = "ios-trelloAPIClient";
 			sourceTree = "<group>";
@@ -1056,7 +1056,6 @@
 				A89A6B0215780C4C00AE8ADC /* VMTrelloApiClient+Card.m in Sources */,
 				A89A6B0315780C4C00AE8ADC /* VMTrelloApiClient+Checklist.m in Sources */,
 				A89A6B0415780C4C00AE8ADC /* VMTrelloApiClient+List.m in Sources */,
-				A89A6B0515780C4C00AE8ADC /* VMTrelloApiClient+Member.m in Sources */,
 				A89A6B0615780C4C00AE8ADC /* VMTrelloApiClient+Notification.m in Sources */,
 				A89A6B0715780C4C00AE8ADC /* VMTrelloApiClient+Organization.m in Sources */,
 				A89A6B0815780C4C00AE8ADC /* VMTrelloApiClient+Token.m in Sources */,
@@ -1075,6 +1074,7 @@
 				A10C4A0F157D7E1C00DBB7D0 /* yoauthv2.m in Sources */,
 				A10C4A10157D7E1C00DBB7D0 /* yoauth_utilities.m in Sources */,
 				A10C4A11157D7E1C00DBB7D0 /* NSMutableURLRequest+YOAuth.m in Sources */,
+				A85AB56015819E35005D7018 /* VMTrelloApiClient+Member.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

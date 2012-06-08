@@ -200,7 +200,7 @@ The Trello API (Beta) is functional with on-going development and is fairly comp
 <tr><td>PUT /1/boards/[board_id]                       </td><td>0.3</td></tr>
 <tr><td>PUT /1/boards/[board_id]/closed                </td><td>0.3</td></tr>
 <tr><td>PUT /1/boards/[board_id]/desc                  </td><td>0.1 - IMPLEMENTED</td></tr>
-<tr><td>PUT /1/boards/[board_id]/name                  </td><td>0.3</td></tr>
+<tr><td>PUT /1/boards/[board_id]/name                  </td><td>0.1.1 - IMPLEMENTED</td></tr>
 <tr><td>POST /1/boards                                 </td><td>0.1 - IMPLEMENTED</td></tr>
 <tr><td>POST /1/boards/[board_id]/checklists           </td><td>0.3</td></tr>
 <tr><td>POST /1/boards/[board_id]/lists                </td><td>0.1 - IMPLEMENTED</td></tr>
@@ -231,7 +231,7 @@ The Trello API (Beta) is functional with on-going development and is fairly comp
 <tr><td>POST /1/cards/[card_id]/labels                     </td><td>0.3</td></tr>
 <tr><td>POST /1/cards/[card_id]/members                    </td><td>0.3</td></tr>
 <tr><td>POST /1/cards/[card_id]/membersVoted               </td><td>0.3</td></tr>
-<tr><td>DELETE /1/cards/[card_id]                          </td><td>0.3</td></tr>
+<tr><td>DELETE /1/cards/[card_id]                          </td><td>0.1.1 - IMPLEMENTED</td></tr>
 <tr><td>DELETE /1/cards/[card_id]/checklists/[idChecklist] </td><td>0.3</td></tr>
 <tr><td>DELETE /1/cards/[card_id]/labels/[color]           </td><td>0.3</td></tr>
 <tr><td>DELETE /1/cards/[card_id]/members/[idMember]       </td><td>0.3</td></tr>
@@ -261,7 +261,7 @@ The Trello API (Beta) is functional with on-going development and is fairly comp
 <tr><td>GET /1/lists/[list_id]/cards/[filter]                                 </td><td>0.2</td></tr>
 <tr><td>PUT /1/lists/[list_id]                                                </td><td>0.3</td></tr>
 <tr><td>PUT /1/lists/[list_id]/closed                                         </td><td>0.3</td></tr>
-<tr><td>PUT /1/lists/[list_id]/name                                           </td><td>0.3</td></tr>
+<tr><td>PUT /1/lists/[list_id]/name                                           </td><td>0.1.1 - IMPLEMENTED</td></tr>
 <tr><td>POST /1/lists                                                         </td><td>0.1 - IMPLEMENTED</td></tr>
 <tr><td>POST /1/lists/[list_id]/cards                                         </td><td>0.1 - IMPLEMENTED</td></tr>
 
@@ -270,7 +270,7 @@ The Trello API (Beta) is functional with on-going development and is fairly comp
 <tr><td>GET /1/members/[member_id or username]/[field]                        </td><td>0.2</td></tr>
 <tr><td>GET /1/members/[member_id or username]/actions                        </td><td>0.2</td></tr>
 <tr><td>GET /1/members/[member_id or username]/boards                         </td><td>0.1 - IMPLEMENTED</td></tr>
-<tr><td>GET /1/members/[member_id or username]/boards/[filter]                </td><td>0.2</td></tr>
+<tr><td>GET /1/members/[member_id or username]/boards/[filter]                </td><td>0.1.1 - IMPLEMENTED</td></tr>
 <tr><td>GET /1/members/[member_id or username]/boardsInvited                  </td><td>0.2</td></tr>
 <tr><td>GET /1/members/[member_id or username]/boardsInvited/[field]          </td><td>0.2</td></tr>
 <tr><td>GET /1/members/[member_id or username]/cards                          </td><td>0.2</td></tr>
