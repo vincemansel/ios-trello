@@ -34,8 +34,9 @@ that is returned. This examples stores the names into an NSArray model called bo
 
 - (void)parseJSONforMyProjectBoards:(id)JSON
 {
-    //NSLog(@"Name: %@ %@", [JSON valueForKeyPath:@"name"], [JSON valueForKeyPath:@"memberships"]);
-    //NSLog(@"JSON: %@", JSON);
+    NSLog(@"Name: %@ %@", [JSON valueForKeyPath:@"name"], [JSON valueForKeyPath:@"memberships"]);
+    NSLog(@"JSON: %@", JSON);
+     
     if (YIS_INSTANCE_OF(JSON, NSArray)) {
         [self.boardList removeAllObjects];
         for (id item in JSON) {
