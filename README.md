@@ -1,5 +1,7 @@
-ios-trello (v0.1)
+ios-trello (v0.1) 
 ==========
+
+ARCHIVED PROJECT
 
 An iOS (Objective-C) API Wrapper for Trello
 
